@@ -1,0 +1,66 @@
+/*---checkbox---*/
+.AR-lang .form-check-label:hover::before,
+.AR-lang .form-check-input:hover ~.form-check-label::before{
+    right: -9px;
+}
+/*---checkbox---*/
+
+/*---Menu---*/
+.AR-lang #menu-section .navbar-nav .nav-link:last-child {
+    padding-left: 0px;
+}
+/*---Menu---*/
+
+/*--select DropDown--*/
+ .AR-lang #filter-title-section .dropbtn,
+ .AR-lang #filter-title-section .dropbtn:active,
+ .AR-lang #filter-title-section .dropbtn:visited{
+     padding: 5px 14px 5px 0px;
+ }
+ /*--select DropDown--*/
+
+ /*---radio button---*/
+.AR-lang .form-check-radio span.hoverEffect{
+    right: -10.2px;
+    left:unset;
+}
+.AR-lang input[type='radio']:after{
+    left:5px;
+}
+.AR-lang input[type='radio']:checked:after{
+    left: 1px;
+}
+.AR-lang input[type='radio']:checked:before{
+    left: 5px;
+}
+ /*---radio button---*/
+
+/*-----------footer-----------*/
+ .AR-lang #footer .firstSection .feedback-form .input-box span{
+     border-radius: 0px 4px 4px 0px;
+     border: 1px solid #ced4da;
+     border-left: 0px;
+ }
+.AR-lang #footer .firstSection .feedback-form .input-box input{
+     border-radius: 4px 0px 0px 4px;
+     border: 1px solid #ced4da;
+     border-right: 0px;
+     padding-right: 0px;
+ }
+ .AR-lang #footer .firstSection .feedback-form button:last-child{
+     margin: 0px 6px;
+     margin-right:0px;
+ }
+ .AR-lang #footer .firstSection .feedback-form .input-box input:focus{
+     border-right:none;
+ }
+ .AR-lang #footer .firstSection .feedback-form .input-box input:focus ~ span{
+     border: 1px solid #f68b1e;
+     border-left: none;
+ }
+ .AR-lang #footer .secondSection > div:first-child .socialMedia-container div a:first-child i,
+ .AR-lang #footer .secondSection > div:first-child .payment-container div a:first-child i{
+     padding-right: 0px;
+     padding-left:13px;
+ }
+ /*-----------footer-----------*/

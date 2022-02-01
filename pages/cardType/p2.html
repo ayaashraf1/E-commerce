@@ -1,0 +1,1956 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>E-commerce Websit</title>
+
+
+  <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="../../libraries/css/bootstrap.css">
+  <link rel="stylesheet" href="../../libraries/css/bootstrap-v4.5.2.css" />
+  <link rel="stylesheet" href="../../libraries/css/bootstrap-slider.css" />
+  <link rel="stylesheet" href="../../style.css">
+  <link rel="stylesheet" href="../../styleRtl.css">
+  <link rel="stylesheet" href="../../shared/css/components.css">
+  <link rel="stylesheet" href="../../shared/css/componentsRtl.css">
+  <link rel="stylesheet" href="../../shared/css/mediaQuery.css">
+  <link rel="stylesheet" href="../../shared/css/mediaQueryRtl.css">
+</head>
+
+<body class="EN-lang">
+  <!--Language Menu-->
+  <div id="language" class="padding-theme col-md-12">
+    <span class="disable EN" id="EN"><img src="../../assets/EN.png" />&nbsp;English</span> &nbsp; | &nbsp;
+    <span id="AR" class="AR"><img src="../../assets/AR.png" />&nbsp; Arabic</span>
+  </div>
+  <!--Menu-->
+  <!--EN-->
+  <nav class="navbar navbar-expand-lg navbar-light padding-theme row EN-lang " id="menu-section">
+    <a class="navbar-brand col-md-2" href="../../Home.html"><img src="../../assets/logo.jpg" /></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse col-md-10" id="navbarSupportedContent">
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2 ml-sm-2  " type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0  " type="submit">Search</button>
+      </form>
+      <ul class="navbar-nav">
+        <li class="nav-item dropdown active">
+          <a class="nav-link dropdown-toggle  " href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            <i class="fas fa-user-alt"></i>&nbsp;
+            Account
+          </a>
+          <div class="dropdown-menu  " aria-labelledby="navbarDropdown">
+            <div class="dropdown-btn-box">
+              <a class="btn-success" href="../login/login.html">Sign In</a>
+            </div>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#"><i class="fas fa-user-alt"></i> &nbsp; &nbsp;My Account</a>
+            <a class="dropdown-item" href="#"><i class="fas fa-home"></i>&nbsp; &nbsp; Orders</a>
+            <a class="dropdown-item" href="#"><i class="far fa-heart"></i>&nbsp; &nbsp; Saved Items</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle  " href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            <i class="far fa-question-circle"></i>&nbsp;
+            Help
+          </a>
+          <div class="dropdown-menu  " aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Help Center</a>
+            <a class="dropdown-item" href="#">Order Cancellation</a>
+            <a class="dropdown-item" href="#">Returns & Refunds</a>
+            <div class="dropdown-divider"></div>
+            <div class="dropdown-btn-box">
+              <a class="btn-success" href="#"><i class="far fa-comment-alt"></i> &nbsp; &nbsp;Live Help</a>
+            </div>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link  " href="#"><i class="fas fa-shopping-cart"></i>&nbsp;Chart</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <!--AR-->
+  <nav class="navbar navbar-expand-lg navbar-light padding-theme row AR-lang" id="menu-section">
+    <a class="navbar-brand col-md-2" href="../../Home.html"><img src="../../assets/logo.jpg" /></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-AR"
+      aria-controls="navbarSupportedContent-AR" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse col-md-10" id="navbarSupportedContent-AR">
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2 ml-sm-2  " type="search" placeholder="ابحث" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0  " type="submit">ابحث</button>
+
+      </form>
+      <ul class="navbar-nav">
+        <li class="nav-item dropdown active">
+          <a class="nav-link dropdown-toggle  " href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            &nbsp; تسجيل الدخول
+            <i class="fas fa-user-alt"></i>
+          </a>
+          <div class="dropdown-menu  " aria-labelledby="navbarDropdown">
+            <div class="dropdown-btn-box">
+              <a class="btn-success" href="../login/login.html">تسجيل الدخول</a>
+            </div>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#"><i class="fas fa-user-alt"></i>&nbsp; &nbsp;الحساب</a>
+            <a class="dropdown-item" href="#"><i class="fas fa-home"></i>&nbsp; &nbsp; الطلبات</a>
+            <a class="dropdown-item" href="#"><i class="far fa-heart"></i>&nbsp; &nbsp; المنتجات المحفوظه</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle  " href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            &nbsp; المساعده
+            <i class="far fa-question-circle"></i>
+          </a>
+          <div class="dropdown-menu  " aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">مركز المساعده</a>
+            <a class="dropdown-item" href="#">الغاء طلبك</a>
+            <a class="dropdown-item" href="#">الارجاع والاسترداد</a>
+            <div class="dropdown-divider"></div>
+            <div class="dropdown-btn-box">
+              <a class="btn-success" href="#"><i class="far fa-comment-alt"></i> &nbsp; &nbsp;تحدث معنا</a>
+            </div>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link  " href="#">&nbsp;سله التسوق<i class="fas fa-shopping-cart"></i></a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+    <!--page title-->
+    <h5 class="pageTitle EN-lang"><a href="home.html">Home&nbsp;&nbsp;></a>&nbsp;<a href="#" class="current">Phones & Tablets</a></h5>
+    <h5 class="pageTitle AR-lang"><a href="home.html">الصفحة الرئيسية&nbsp;&nbsp;></a>&nbsp;<a href="#" class="current">موبايلات وتابلت</a></h5>
+  <!--second section-->
+  <div id="second-section">
+    <!--Filter-->
+    <div id="filter-section">
+      <h4 class=EN-lang>Category</h4>
+      <h4 class=AR-lang>الفئة</h4>
+      <ul class=EN-lang id="categories">
+        <li><a href="#">Phones & Tablets</a></li>
+        <li><a href="#">Cell Phone Accessories</a></li>
+        <li><a href="#">Mobile Phones</a></li>
+        <li><a href="#">Tablet Accessories</a></li>
+        <li><a href="#">Tablets</a></li>
+        <li><a href="#">Telephones & Accessories</a></li>
+      </ul>
+      <!--AR-->
+      <ul class=AR-lang id="categories">
+        <li><a href="#">موبايلات وتابلت</a></li>
+        <li><a href="#">اكسسوارات</a></li>
+        <li><a href="#">موبايلات</a></li>
+        <li><a href="#">اكسسوارات تابلت</a></li>
+        <li><a href="#">تابلت</a></li>
+        <li><a href="#">اكسسوارات التيلفون</a></li>
+      </ul>
+      <!--rating section-->
+      <h4 class=EN-lang>Product Rating</h4>
+      <h4 class="AR-lang">تقييم المنتج</h4>
+      <div id="product-rating-section">
+        <div class="form-check-radio">
+          <input class="form-check-input-radio" type="radio" name="rateRadios" id="exampleRadios1" value="option1"
+            checked>
+          <span class="hoverEffect"></span>
+          <label class="form-check-label-radio" for="exampleRadios1">
+            <div class="rate">
+              <i class="fa fa-star rated"></i>
+              <i class="fa fa-star rated"></i>
+              <i class="fa fa-star rated"></i>
+              <i class="fa fa-star rated"></i>
+              <i class="fa fa-star"></i>
+              <span class="EN-lang">&nbsp; & above</span>
+              <span class="AR-lang">&nbsp; أو أعلي</span>
+            </div>
+          </label>
+        </div>
+        <div class="form-check-radio">
+          <input class="form-check-input-radio" type="radio" name="rateRadios" id="exampleRadios1" value="option2">
+          <span class="hoverEffect"></span>
+          <label class="form-check-label-radio" for="exampleRadios1">
+            <div class="rate">
+              <i class="fa fa-star rated"></i>
+              <i class="fa fa-star rated"></i>
+              <i class="fa fa-star rated"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <span class="EN-lang">&nbsp; & above</span>
+              <span class="AR-lang">&nbsp; أو أعلي</span>
+            </div>
+          </label>
+        </div>
+        <div class="form-check-radio">
+          <input class="form-check-input-radio" type="radio" name="rateRadios" id="exampleRadios1" value="option3">
+          <span class="hoverEffect"></span>
+          <label class="form-check-label-radio" for="exampleRadios1">
+            <div class="rate">
+              <i class="fa fa-star rated"></i>
+              <i class="fa fa-star rated"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <span class="EN-lang">&nbsp; & above</span>
+              <span class="AR-lang">&nbsp; أو أعلي</span>
+            </div>
+          </label>
+        </div>
+        <div class="form-check-radio">
+          <input class="form-check-input-radio" type="radio" name="rateRadios" id="exampleRadios1" value="option4">
+          <span class="hoverEffect"></span>
+          <label class="form-check-label-radio" for="exampleRadios1">
+            <div class="rate">
+              <i class="fa fa-star rated"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <span class="EN-lang">&nbsp; & above</span>
+              <span class="AR-lang">&nbsp; أو أعلي</span>
+            </div>
+          </label>
+        </div>
+      </div>
+      <!--Express shipping-->
+      <h4 class=EN-lang>Express shipping</h4>
+      <h4 class="AR-lang">شحن سريع</h4>
+      <div id="express-shipping-section">
+        <div class="form-check">
+          <input type="checkbox" class="form-check-input" id="expressShipping">
+          <!-- <label class="form-check-label" for="expressShipping">jumia <span style="color:#f68b1e;">express</span></label> -->
+          <label class="form-check-label" for="expressShipping"><img src="../../assets/jumiaExpress.PNG" /></label>
+        </div>
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal"
+          id="expressModalBtn">
+          <i class="fas fa-info-circle"></i></button>
+      </div>
+      <!--Modal for jumia express-->
+      <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title EN-lang" id="exampleModalLabel">Jumia Express</h5>
+              <h5 class="modal-title AR-lang" id="exampleModalLabel">جوميا اكسبريس</h5>
+
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <p class="EN-lang">With Jumia Express, benefit from:</p>
+              <p class="AR-lang">مميزات جوميا اكسبريس:</p>
+
+              <ul class="EN-lang">
+                <li>Free Shipping on Jumia Express orders above 350 EGP in Cairo & Giza.</li>
+                <li>Jumia express items in Cairo & Giza: If order placed before 2PM first
+                  delivery attempts within 1-2 Business days.</li>
+                <li>Jumia express items in all other cities: If order placed before 2PM first
+                  delivery attempts within 2-8 Business days.</li>
+              </ul>
+
+              <ul class="AR-lang">
+                <li>استمتع بشحن مجاني لمنتجات جوميا اكسبريس للطلبات اكتر من 350 جنيه فى القاهرة و الجيزة.</li>
+                <li>القاهرة والجيزة: إذا طلبت قبل الساعة 2 ظهرًا سوف يتم توصيل المنتج في خلال 1-2 أيام عمل.</li>
+                <li>المحافظات الأخرى: إذا طلبت قبل الساعة 2 ظهرًا سوف يتم توصيل المنتج في خلال 2-8 أيام عمل.</li>
+              </ul>
+
+
+              <p class="EN-lang">Free shipping offer is not valid for large sized items and certain areas. Click
+                <a>here</a> to get more details.
+              </p>
+              <p class="AR-lang">عرض الشحن المجاني لا يشمل المنتجات كبيرة الحجم و لا يشمل التوصيل إلى أماكن محددة لمزيد
+                من المعلومات
+                <a>أضغط هنا</a>
+              </p>
+            </div>
+            <!-- <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary">Save changes</button>
+            </div> -->
+          </div>
+        </div>
+      </div>
+      <!--Brand Section-->
+      <h4 class=EN-lang>Brand</h4>
+      <h4 class="AR-lang">الماركة</h4>
+      <div id="brand-section">
+        <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+        <div id="brands">
+          <div class="form-check">
+            <input type="checkbox" class="form-check-input" id="brand-Andoer">
+            <label class="form-check-label" for="brand-Andoer">Andoer</label>
+          </div>
+          <div class="form-check">
+            <input type="checkbox" class="form-check-input" id="brand-Apple">
+            <label class="form-check-label" for="brand-Apple">Apple</label>
+          </div>
+          <div class="form-check">
+            <input type="checkbox" class="form-check-input" id="brand-Armor">
+            <label class="form-check-label" for="brand-Armor">Armor</label>
+          </div>
+          <div class="form-check">
+            <input type="checkbox" class="form-check-input" id="brand-Aspor">
+            <label class="form-check-label" for="brand-Aspor">Aspor</label>
+          </div>
+          <div class="form-check">
+            <input type="checkbox" class="form-check-input" id="brand-Autofocus">
+            <label class="form-check-label" for="brand-Autofocus">Autofocus</label>
+          </div>
+          <div class="form-check">
+            <input type="checkbox" class="form-check-input" id="brand-Autre">
+            <label class="form-check-label" for="brand-Autre">Autre</label>
+          </div>
+          <div class="form-check">
+            <input type="checkbox" class="form-check-input" id="brand-Awei">
+            <label class="form-check-label" for="brand-Awei">Awei</label>
+          </div>
+        </div>
+      </div>
+      <!--Price Section-->
+      <div id="price-section">
+        <div class="title">
+          <h4 class="EN-lang">PRICE (EGP)</h4>
+          <h4 class="AR-lang">السعر (جنيه)</h4>
+
+          <button class="EN-lang btn-Apply">Apply</button>
+          <button class="AR-lang btn-Apply">تطبيق</button>
+        </div>
+        <div id="rangesection">
+          <div id="slider-outer-div">
+            <div id="slider-div">
+              <div>
+                <input id="ex2" type="text" data-slider-min="1" data-slider-max="41900" data-slider-value="[1,41900]"
+                  data-slider-tooltip="hide" />
+              </div>
+            </div>
+          </div>
+          <div id="rangeValues">
+            <input type="number" value="1" min="1" max="41900" id="slider-min-label" class="slider-label" /> -
+            <input type="number" value="41900" min="1" max="41900" id="slider-max-label" class="slider-label" />
+          </div>
+        </div>
+
+      </div>
+
+      <!--operating System section-->
+      <h4 class=EN-lang>OPERATING SYSTEM</h4>
+      <h4 class="AR-lang">نظام التشغيل</h4>
+      <div id="os-section">
+        <div class="form-check">
+          <input type="checkbox" class="form-check-input" id="brand-Android">
+          <label class="form-check-label" for="brand-Android">Android</label>
+        </div>
+        <div class="form-check">
+          <input type="checkbox" class="form-check-input" id="brand-IOS">
+          <label class="form-check-label" for="brand-IOS">IOS</label>
+        </div>
+        <div class="form-check">
+          <input type="checkbox" class="form-check-input" id="brand-Windows">
+          <label class="form-check-label" for="brand-Windows">Windows</label>
+        </div>
+      </div>
+      <!--Color Section-->
+      <h4 class=EN-lang>Color</h4>
+      <h4 class="AR-lang">اللون</h4>
+      <div id="color-section">
+        <div class="form-check">
+          <input type="checkbox" class="form-check-input" id="color-Beige">
+          <label class="form-check-label" for="color-Beige">Beige</label>
+        </div>
+        <div class="form-check">
+          <input type="checkbox" class="form-check-input" id="color-Black">
+          <label class="form-check-label" for="color-Black">Black</label>
+        </div>
+        <div class="form-check">
+          <input type="checkbox" class="form-check-input" id="color-Blue">
+          <label class="form-check-label" for="color-Blue">Blue</label>
+        </div>
+        <div class="form-check">
+          <input type="checkbox" class="form-check-input" id="color-Bronze">
+          <label class="form-check-label" for="color-Bronze">Bronze</label>
+        </div>
+        <div class="form-check">
+          <input type="checkbox" class="form-check-input" id="color-Brown">
+          <label class="form-check-label" for="color-Brown">Brown</label>
+        </div>
+        <div class="form-check">
+          <input type="checkbox" class="form-check-input" id="color-Fuchsia">
+          <label class="form-check-label" for="color-Fuchsia">Fuchsia</label>
+        </div>
+        <div class="form-check">
+          <input type="checkbox" class="form-check-input" id="color-Gold">
+          <label class="form-check-label" for="color-Gold">Gold</label>
+        </div>
+      </div>
+      <!--hard-disk section-->
+      <h4 class=EN-lang>HARD DISK (GB)</h4>
+      <h4 class="AR-lang">هارد ديسك(جيجا بايت)</h4>
+      <div id="os-section">
+        <div class="form-check">
+          <input type="checkbox" class="form-check-input" id="1GB">
+          <label class="form-check-label EN-lang" for="1GB">1GB</label>
+          <label class="form-check-label AR-lang" for="1GB">جيجا بايت1</label>
+        </div>
+        <div class="form-check">
+          <input type="checkbox" class="form-check-input" id="8GB">
+          <label class="form-check-label EN-lang" for="8GB">8GB</label>
+          <label class="form-check-label AR-lang" for="8GB">8جيجا بايت</label>
+        </div>
+      </div>
+
+      <!--MegaPixcel Section-->
+      <h4 class=EN-lang>MEGAPIXELS</h4>
+      <h4 class="AR-lang">ميجابكسل</h4>
+      <div id="megaPixcel-section">
+        <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+        <div id="megaPixcel-list">
+          <div class="form-check">
+            <input type="checkbox" class="form-check-input" id="megaPixcel-0.0">
+            <label class="form-check-label" for="megaPixcel-0.0">0.0</label>
+          </div>
+          <div class="form-check">
+            <input type="checkbox" class="form-check-input" id="megaPixcel-0.3">
+            <label class="form-check-label" for="megaPixcel-0.3">0.3</label>
+          </div>
+          <div class="form-check">
+            <input type="checkbox" class="form-check-input" id="megaPixcel-1.3">
+            <label class="form-check-label" for="megaPixcel-1.3">1.3</label>
+          </div>
+          <div class="form-check">
+            <input type="checkbox" class="form-check-input" id="megaPixcel-2">
+            <label class="form-check-label" for="megaPixcel-2">2</label>
+          </div>
+          <div class="form-check">
+            <input type="checkbox" class="form-check-input" id="megaPixcel-2.0">
+            <label class="form-check-label" for="megaPixcel-2.0">2.0</label>
+          </div>
+          <div class="form-check">
+            <input type="checkbox" class="form-check-input" id="megaPixcel-3">
+            <label class="form-check-label" for="megaPixcel-3">3</label>
+          </div>
+          <div class="form-check">
+            <input type="checkbox" class="form-check-input" id="megaPixcel-5">
+            <label class="form-check-label" for="megaPixcel-5">5</label>
+          </div>
+        </div>
+      </div>
+
+      <!--optical zoom section-->
+      <h4 class=EN-lang>Optical zoom</h4>
+      <h4 class="AR-lang">تقريب بصري</h4>
+      <div id="os-section">
+        <div class="form-check">
+          <input type="checkbox" class="form-check-input" id="zoom-0.0">
+          <label class="form-check-label" for="zoom-0.0">0.0</label>
+        </div>
+      </div>
+      <!--Screen size Section-->
+      <h4 class=EN-lang>SCREEN SIZE</h4>
+      <h4 class="AR-lang">حجم الشاشة</h4>
+      <div id="screenSize-section">
+        <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+        <div id="screenSize-list">
+          <div class="form-check">
+            <input type="checkbox" class="form-check-input" id="screenSize-1.7">
+            <label class="form-check-label" for="screenSize-1.7">1.7</label>
+          </div>
+          <div class="form-check">
+            <input type="checkbox" class="form-check-input" id="screenSize-2.4">
+            <label class="form-check-label" for="screenSize-2.4">2.4</label>
+          </div>
+          <div class="form-check">
+            <input type="checkbox" class="form-check-input" id="screenSize-2.8">
+            <label class="form-check-label" for="screenSize-2.8">2.8</label>
+          </div>
+          <div class="form-check">
+            <input type="checkbox" class="form-check-input" id="screenSize-4.7">
+            <label class="form-check-label" for="screenSize-4.7">4.7</label>
+          </div>
+          <div class="form-check">
+            <input type="checkbox" class="form-check-input" id="screenSize-5">
+            <label class="form-check-label" for="screenSize-5">5</label>
+          </div>
+          <div class="form-check">
+            <input type="checkbox" class="form-check-input" id="screenSize-5.4">
+            <label class="form-check-label" for="screenSize-5.4">5.4</label>
+          </div>
+          <div class="form-check">
+            <input type="checkbox" class="form-check-input" id="screenSize-5.7">
+            <label class="form-check-label" for="screenSize-5.7">5.7</label>
+          </div>
+        </div>
+      </div>
+
+      <!--shipped-from section-->
+      <h4 class=EN-lang>SHIPPED FROM</h4>
+      <h4 class="AR-lang">تم الشحن من</h4>
+      <div id="shippedFrom-section">
+        <div class="form-check">
+          <input type="checkbox" class="form-check-input" id="shippedFromEG">
+          <label class="form-check-label EN-lang" for="shippedFromEG">Shipped from Egypt</label>
+          <label class="form-check-label AR-lang" for="shippedFromEG">تم الشحن من مصر</label>
+
+        </div>
+        <div class="form-check">
+          <input type="checkbox" class="form-check-input" id="shippedFromAbroad">
+          <label class="form-check-label EN-lang" for="shippedFromAbroad">Shipped from abroad</label>
+          <label class="form-check-label AR-lang" for="shippedFromAbroad">مرسل من خارج البلاد</label>
+
+        </div>
+      </div>
+
+      <!--SELLER SCORE-->
+      <h4 class=EN-lang>SELLER SCORE</h4>
+      <h4 class="AR-lang">تقييم البائع</h4>
+      <div id="score-section">
+        <div class="form-check-radio">
+          <input class="form-check-input-radio" type="radio" name="scoreRadios" id="score-80" value="80" checked>
+          <span class="hoverEffect"></span>
+          <label class="form-check-label-radio" for="score-80">
+            <div class="rate">
+              80%
+              <span class="EN-lang">&nbsp; & above</span>
+              <span class="AR-lang">&nbsp; أو أعلي</span>
+            </div>
+          </label>
+        </div>
+        <div class="form-check-radio">
+          <input class="form-check-input-radio" type="radio" name="scoreRadios" id="score-60" value="60">
+          <span class="hoverEffect"></span>
+          <label class="form-check-label-radio" for="score-60">
+            <div class="rate">
+              60%
+              <span class="EN-lang">&nbsp; & above</span>
+              <span class="AR-lang">&nbsp; أو أعلي</span>
+            </div>
+          </label>
+        </div>
+        <div class="form-check-radio">
+          <input class="form-check-input-radio" type="radio" name="scoreRadios" id="score-40" value="40">
+          <span class="hoverEffect"></span>
+          <label class="form-check-label-radio" for="score-40">
+            <div class="rate">
+              40%
+              <span class="EN-lang">&nbsp; & above</span>
+              <span class="AR-lang">&nbsp; أو أعلي</span>
+            </div>
+          </label>
+        </div>
+        <div class="form-check-radio">
+          <input class="form-check-input-radio" type="radio" name="scoreRadios" id="score-20" value="20">
+          <span class="hoverEffect"></span>
+          <label class="form-check-label-radio" for="score-20">
+            <div class="rate">
+              20%
+              <span class="EN-lang">&nbsp; & above</span>
+              <span class="AR-lang">&nbsp; أو أعلي</span>
+            </div>
+          </label>
+        </div>
+      </div>
+      <!--DISCOUNT PERCENTAGE-->
+      <h4 class=EN-lang>DISCOUNT PERCENTAGE</h4>
+      <h4 class="AR-lang">نسبة الخصم</h4>
+      <div id="discount-section">
+        <div class="form-check-radio">
+          <input class="form-check-input-radio" type="radio" name="discountRadios" id="discount-50" value="50" checked>
+          <span class="hoverEffect"></span>
+          <label class="form-check-label-radio" for="discount-50">
+            <div class="rate">
+              50%
+              <span class="EN-lang">&nbsp; & above</span>
+              <span class="AR-lang">&nbsp; أو أعلي</span>
+            </div>
+          </label>
+        </div>
+        <div class="form-check-radio">
+          <input class="form-check-input-radio" type="radio" name="discountRadios" id="discount-40" value="40">
+          <span class="hoverEffect"></span>
+          <label class="form-check-label-radio" for="discount-40">
+            <div class="rate">
+              40%
+              <span class="EN-lang">&nbsp; & above</span>
+              <span class="AR-lang">&nbsp; أو أعلي</span>
+            </div>
+          </label>
+        </div>
+        <div class="form-check-radio">
+          <input class="form-check-input-radio" type="radio" name="discountRadios" id="discount-30" value="30">
+          <span class="hoverEffect"></span>
+          <label class="form-check-label-radio" for="discount-30">
+            <div class="rate">
+              30%
+              <span class="EN-lang">&nbsp; & above</span>
+              <span class="AR-lang">&nbsp; أو أعلي</span>
+            </div>
+          </label>
+        </div>
+        <div class="form-check-radio">
+          <input class="form-check-input-radio" type="radio" name="discountRadios" id="discount-20" value="20">
+          <span class="hoverEffect"></span>
+          <label class="form-check-label-radio" for="discount-20">
+            <div class="rate">
+              20%
+              <span class="EN-lang">&nbsp; & above</span>
+              <span class="AR-lang">&nbsp; أو أعلي</span>
+            </div>
+          </label>
+        </div>
+        <div class="form-check-radio">
+          <input class="form-check-input-radio" type="radio" name="discountRadios" id="discount-10" value="10">
+          <span class="hoverEffect"></span>
+          <label class="form-check-label-radio" for="discount-10">
+            <div class="rate">
+              10%
+              <span class="EN-lang">&nbsp; & above</span>
+              <span class="AR-lang">&nbsp; أو أعلي</span>
+            </div>
+          </label>
+        </div>
+      </div>
+      <!--INTERNAL MEMORY section-->
+      <h4 class=EN-lang>INTERNAL MEMORY (GB)</h4>
+      <h4 class="AR-lang">الذاكرة الداخلية (جيجابايت)</h4>
+      <div id="internalMemory-section">
+        <div id="internalMemory-list">
+          <div class="form-check">
+            <input type="checkbox" class="form-check-input" id="internalMemory-0">
+            <span class="hoverEffect"></span>
+            <label class="form-check-label" for="internalMemory-0">0</label>
+          </div>
+          <div class="form-check">
+            <input type="checkbox" class="form-check-input" id="internalMemory-1">
+            <span class="hoverEffect"></span>
+            <label class="form-check-label" for="internalMemory-1">1</label>
+          </div>
+          <div class="form-check">
+            <input type="checkbox" class="form-check-input" id="internalMemory-1GB">
+            <span class="hoverEffect"></span>
+            <label class="form-check-label" for="internalMemory-1GB">1GB</label>
+          </div>
+          <div class="form-check">
+            <input type="checkbox" class="form-check-input" id="internalMemory-2">
+            <span class="hoverEffect"></span>
+            <label class="form-check-label" for="internalMemory-2">2</label>
+          </div>
+          <div class="form-check">
+            <input type="checkbox" class="form-check-input" id="internalMemory-3">
+            <span class="hoverEffect"></span>
+            <label class="form-check-label" for="internalMemory-3">3</label>
+          </div>
+          <div class="form-check">
+            <input type="checkbox" class="form-check-input" id="internalMemory-4">
+            <span class="hoverEffect"></span>
+            <label class="form-check-label" for="internalMemory-4">4</label>
+          </div>
+          <div class="form-check">
+            <input type="checkbox" class="form-check-input" id="internalMemory-4GB">
+            <span class="hoverEffect"></span>
+            <label class="form-check-label" for="internalMemory-4GB">4GB</label>
+          </div>
+        </div>
+      </div>
+      <!--size section-->
+      <h4 class=EN-lang>size</h4>
+      <h4 class="AR-lang">الحجم</h4>
+      <div id="size-section">
+        <div class="form-check">
+          <input type="checkbox" class="form-check-input" id="size-0">
+          <label class="form-check-label" for="size-0">0</label>
+        </div>
+        <div class="form-check">
+          <input type="checkbox" class="form-check-input" id="size-freeSize">
+          <label class="form-check-label" for="size-freeSize">Free Size</label>
+        </div>
+        <div class="form-check">
+          <input type="checkbox" class="form-check-input" id="size-ONESIZE">
+          <label class="form-check-label" for="size-ONESIZE">ONE-SIZE</label>
+        </div>
+        <div class="form-check">
+          <input type="checkbox" class="form-check-input" id="size-OneSize">
+          <label class="form-check-label" for="size-OneSize">One Size</label>
+        </div>
+      </div>
+
+    </div>
+    <!--devices in cards-->
+    <!--devices in grid-->
+    <div id="devices-section">
+      <div id="filter-title-section">
+        <h1 class="EN-lang">Phones & Tablets</h1>
+        <h1 class="AR-lang">موبايلات وتابلت</h1>
+        <div id="filter">
+          <div class="EN-lang">
+            <div class="dropdown">
+              <button class="dropbtn"><i class="fas fa-chevron-down"></i>Sort By:&nbsp;Popularity</button>
+              <div class="dropdown-content">
+                <a href="#">Newest Arrivals</a>
+                <a href="#">Price: Low to High</a>
+                <a href="#">Price: High to Low</a>
+                <a href="#">Product Rating</a>
+              </div>
+            </div>
+          </div>
+          <div class="AR-lang">
+            <div class="dropdown">
+              <button class="dropbtn"><i class="fas fa-chevron-down"></i>ترتيب حسب:&nbsp;مشهور</button>
+              <div class="dropdown-content">
+                <a href="#">وصل حديثًا</a>
+                <a href="#">السعر: الأقل الي الأعلي</a>
+                <a href="#">السعر: الأعلي الي الأقل</a>
+                <a href="#">تقييم المنتج</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <div id="view-option-section">
+        <p class="EN-lang"><span>1540720</span> products found</p>
+        <p class="AR-lang"> إجمالى المنتجات<span>1540720</span></p>
+        <div id="icon-box">
+          <i class="fas fa-server selected"></i>
+          <i class="fas fa-table"></i>
+        </div>
+      </div>
+      <!--Row view-->
+      <div id="row-view">
+        <div class="device-card">
+          <div class="device-title">
+            <img src='../../assets/device1.jpg' />
+            <div class="device-data-container d-flex full-width">
+            <div class="d-flex flex-column position-relative full-width">
+              <div class="mx-20 blueTit EN-lang">Official Store</div>
+              <div class="mx-20 blueTit AR-lang">المتجر الرسمي</div>
+
+              <h3 class="EN-lang">Moxom Charge & Data Cable 3 Meter (USB-type C)</h3>
+              <h3 class="AR-lang">Moxom Charge & Data Cable 3 Meter (USB-type C)</h3>
+
+              <div class="rate d-flex mx-20">
+                <i class="fa fa-star rated"></i>
+                <i class="fa fa-star rated"></i>
+                <i class="fa fa-star rated"></i>
+                <i class="fa fa-star rated"></i>
+                <i class="fa fa-star"></i>
+                <span>&nbsp;(300)</span>
+              </div>
+              <div class="position-absolute d-flex flex-wrap mx-20 shipped">
+                <img src="../../assets/jumiaExpress.PNG" />
+                <span class="EN-lang">Eligible for free shipping</span>
+                <span class="AR-lang">مؤهل للشحن المجاني</span>
+
+              </div>
+            </div>
+            <div class="device-price">
+              <button type="button" id="sponsoreBtn">
+                <span class="EN-lang">Sponsored</span>
+                <span class="AR-lang">منتجات مدعومة</span>
+                <i class="fas fa-info-circle"></i></button>
+  
+              <div class="price EN-lang">EGP 150.00</div>
+              <div class="price AR-lang">جنيه 250.00</div>
+  
+              <div class="discount-container">
+                <p class="beforeDiscount"></p>
+                <div class="discount"></div>
+              </div>
+              <p class="offerFrom EN-lang"><span>2</span> offers from <span>EGP 100.00</span></p>
+            <p class="offerFrom AR-lang"><span>2</span> تبدأ العروض من <span>جنيه 100.00</span></p>
+              <button class="btn btn-success EN-lang">add to cart</button>
+              <button class="btn btn-success AR-lang">اضافة لسلة التسوق</button>
+            </div>
+          </div>
+          </div>
+        </div>
+        <div class="device-card">
+          <div class="device-title">
+            <img src='../../assets/device2.jpg' />
+            <div class="device-data-container d-flex full-width">
+            <div class="d-flex flex-column position-relative full-width">
+              <div class="mx-20 blueTit EN-lang hide">Official Store</div>
+              <div class="mx-20 blueTit AR-lang hide">المتجر الرسمي</div>
+
+              <h3 class="EN-lang">Moxom Charge & Data Cable 3 Meter (USB-type C)</h3>
+              <h3 class="AR-lang">Moxom Charge & Data Cable 3 Meter (USB-type C)</h3>
+
+              <div class="rate d-flex mx-20">
+                <i class="fa fa-star rated"></i>
+                <i class="fa fa-star rated"></i>
+                <i class="fa fa-star rated"></i>
+                <i class="fa fa-star rated"></i>
+                <i class="fa fa-star"></i>
+                <span>&nbsp;(300)</span>
+              </div>
+              <div class="position-absolute d-flex flex-wrap mx-20 shipped hide">
+                <img src="../../assets/jumiaExpress.PNG" />
+                <span class="EN-lang">Eligible for free shipping</span>
+                <span class="AR-lang">مؤهل للشحن المجاني</span>
+
+              </div>
+            </div>
+            <div class="device-price">
+              <button type="button" class="hide" id="sponsoreBtn">
+                <span class="EN-lang">Sponsored</span>
+                <span class="AR-lang">منتجات مدعومة</span>
+                <i class="fas fa-info-circle"></i></button>
+  
+              <div class="price EN-lang">EGP 150.00</div>
+              <div class="price AR-lang">جنيه 250.00</div>
+  
+              <div class="discount-container">
+                <p class="beforeDiscount"></p>
+                <div class="discount"></div>
+              </div>
+              <p class="offerFrom hide EN-lang"><span>2</span> offers from <span>EGP 100.00</span></p>
+            <p class="offerFrom hide AR-lang"><span>2</span> تبدأ العروض من <span>جنيه 100.00</span></p>
+              <button class="btn btn-success EN-lang">add to cart</button>
+              <button class="btn btn-success AR-lang">اضافة لسلة التسوق</button>
+            </div>
+          </div>
+          </div>
+        </div>
+        <div class="device-card">
+          <div class="device-title">
+            <img src='../../assets/device3.jpg' />
+            <div class="device-data-container d-flex full-width">
+            <div class="d-flex flex-column position-relative full-width">
+              <div class="mx-20 blueTit hide EN-lang">Official Store</div>
+              <div class="mx-20 blueTit hide AR-lang">المتجر الرسمي</div>
+
+              <h3 class="EN-lang">Moxom Charge & Data Cable 3 Meter (USB-type C)</h3>
+              <h3 class="AR-lang">Moxom Charge & Data Cable 3 Meter (USB-type C)</h3>
+
+              <div class="rate d-flex mx-20">
+                <i class="fa fa-star rated"></i>
+                <i class="fa fa-star rated"></i>
+                <i class="fa fa-star rated"></i>
+                <i class="fa fa-star rated"></i>
+                <i class="fa fa-star"></i>
+                <span>&nbsp;(300)</span>
+              </div>
+              <div class="position-absolute d-flex flex-wrap mx-20 shipped">
+                <img src="../../assets/jumiaExpress.PNG" />
+                <span class="EN-lang">Eligible for free shipping</span>
+                <span class="AR-lang">مؤهل للشحن المجاني</span>
+
+              </div>
+            </div>
+            <div class="device-price">
+              <button type="button" class="hide" id="sponsoreBtn">
+                <span class="EN-lang">Sponsored</span>
+                <span class="AR-lang">منتجات مدعومة</span>
+                <i class="fas fa-info-circle"></i></button>
+  
+              <div class="price EN-lang">EGP 150.00</div>
+              <div class="price AR-lang">جنيه 250.00</div>
+  
+              <div class="discount-container">
+                <p class="beforeDiscount"></p>
+                <div class="discount"></div>
+              </div>
+              <p class="offerFrom EN-lang"><span>2</span> offers from <span>EGP 100.00</span></p>
+            <p class="offerFrom AR-lang"><span>2</span> تبدأ العروض من <span>جنيه 100.00</span></p>
+              <button class="btn btn-success EN-lang">add to cart</button>
+              <button class="btn btn-success AR-lang">اضافة لسلة التسوق</button>
+            </div>
+          </div>
+          </div>
+        </div>
+        <div class="device-card">
+          <div class="device-title">
+            <img src='../../assets/device4.jpg' />
+            <div class="device-data-container d-flex full-width">
+            <div class="d-flex flex-column position-relative full-width">
+              <div class="mx-20 blueTit hide EN-lang">Official Store</div>
+              <div class="mx-20 blueTit hide AR-lang">المتجر الرسمي</div>
+
+              <h3 class="EN-lang">Moxom Charge & Data Cable 3 Meter (USB-type C)</h3>
+              <h3 class="AR-lang">Moxom Charge & Data Cable 3 Meter (USB-type C)</h3>
+
+              <div class="rate d-flex mx-20">
+                <i class="fa fa-star rated"></i>
+                <i class="fa fa-star rated"></i>
+                <i class="fa fa-star rated"></i>
+                <i class="fa fa-star rated"></i>
+                <i class="fa fa-star"></i>
+                <span>&nbsp;(300)</span>
+              </div>
+              <div class="position-absolute d-flex flex-wrap mx-20 shipped hide">
+                <img src="../../assets/jumiaExpress.PNG" />
+                <span class="EN-lang">Eligible for free shipping</span>
+                <span class="AR-lang">مؤهل للشحن المجاني</span>
+
+              </div>
+            </div>
+            <div class="device-price">
+              <button type="button" id="sponsoreBtn">
+                <span class="EN-lang">Sponsored</span>
+                <span class="AR-lang">منتجات مدعومة</span>
+                <i class="fas fa-info-circle"></i></button>
+  
+              <div class="price EN-lang">EGP 150.00</div>
+              <div class="price AR-lang">جنيه 250.00</div>
+  
+              <div class="discount-container">
+                <p class="beforeDiscount"></p>
+                <div class="discount"></div>
+              </div>
+              <p class="offerFrom EN-lang"><span>2</span> offers from <span>EGP 100.00</span></p>
+            <p class="offerFrom AR-lang"><span>2</span> تبدأ العروض من <span>جنيه 100.00</span></p>
+              <button class="btn btn-success EN-lang">add to cart</button>
+              <button class="btn btn-success AR-lang">اضافة لسلة التسوق</button>
+            </div>
+          </div>
+          </div>
+        </div>
+        <div class="device-card">
+          <div class="device-title">
+            <img src='../../assets/device5.jpg' />
+            <div class="device-data-container d-flex full-width">
+            <div class="d-flex flex-column position-relative full-width">
+              <div class="mx-20 blueTit hide EN-lang">Official Store</div>
+              <div class="mx-20 blueTit hide AR-lang">المتجر الرسمي</div>
+
+              <h3 class="EN-lang">Moxom Charge & Data Cable 3 Meter (USB-type C)</h3>
+              <h3 class="AR-lang">Moxom Charge & Data Cable 3 Meter (USB-type C)</h3>
+
+              <div class="rate d-flex mx-20">
+                <i class="fa fa-star rated"></i>
+                <i class="fa fa-star rated"></i>
+                <i class="fa fa-star rated"></i>
+                <i class="fa fa-star rated"></i>
+                <i class="fa fa-star"></i>
+                <span>&nbsp;(300)</span>
+              </div>
+              <div class="position-absolute d-flex flex-wrap mx-20 shipped hide">
+                <img src="../../assets/jumiaExpress.PNG" />
+                <span class="EN-lang">Eligible for free shipping</span>
+                <span class="AR-lang">مؤهل للشحن المجاني</span>
+
+              </div>
+            </div>
+            <div class="device-price">
+              <button type="button" id="sponsoreBtn">
+                <span class="EN-lang">Sponsored</span>
+                <span class="AR-lang">منتجات مدعومة</span>
+                <i class="fas fa-info-circle"></i></button>
+  
+              <div class="price EN-lang">EGP 150.00</div>
+              <div class="price AR-lang">جنيه 250.00</div>
+  
+              <div class="discount-container">
+                <p class="beforeDiscount"></p>
+                <div class="discount"></div>
+              </div>
+              <p class="offerFrom EN-lang"><span>2</span> offers from <span>EGP 100.00</span></p>
+            <p class="offerFrom AR-lang"><span>2</span> تبدأ العروض من <span>جنيه 100.00</span></p>
+              <button class="btn btn-success EN-lang">add to cart</button>
+              <button class="btn btn-success AR-lang">اضافة لسلة التسوق</button>
+            </div>
+          </div>
+          </div>
+        </div>
+        <div class="device-card">
+          <div class="device-title">
+            <img src='../../assets/device6.jpg' />
+            <div class="device-data-container d-flex full-width">
+            <div class="d-flex flex-column position-relative full-width">
+              <div class="mx-20 blueTit hid EN-lang">Official Store</div>
+              <div class="mx-20 blueTit hide AR-lang">المتجر الرسمي</div>
+
+              <h3 class="EN-lang">Moxom Charge & Data Cable 3 Meter (USB-type C)</h3>
+              <h3 class="AR-lang">Moxom Charge & Data Cable 3 Meter (USB-type C)</h3>
+
+              <div class="rate d-flex mx-20">
+                <i class="fa fa-star rated"></i>
+                <i class="fa fa-star rated"></i>
+                <i class="fa fa-star rated"></i>
+                <i class="fa fa-star rated"></i>
+                <i class="fa fa-star"></i>
+                <span>&nbsp;(300)</span>
+              </div>
+              <div class="position-absolute d-flex flex-wrap mx-20 shipped hide ">
+                <img src="../../assets/jumiaExpress.PNG" />
+                <span class="EN-lang">Eligible for free shipping</span>
+                <span class="AR-lang">مؤهل للشحن المجاني</span>
+
+              </div>
+            </div>
+            <div class="device-price">
+              <button type="button" class="hide" id="sponsoreBtn">
+                <span class="EN-lang">Sponsored</span>
+                <span class="AR-lang">منتجات مدعومة</span>
+                <i class="fas fa-info-circle"></i></button>
+  
+              <div class="price EN-lang">EGP 150.00</div>
+              <div class="price AR-lang">جنيه 250.00</div>
+  
+              <div class="discount-container">
+                <p class="beforeDiscount"></p>
+                <div class="discount"></div>
+              </div>
+              <p class="offerFrom hide EN-lang"><span>2</span> offers from <span>EGP 100.00</span></p>
+            <p class="offerFrom hide AR-lang"><span>2</span> تبدأ العروض من <span>جنيه 100.00</span></p>
+              <button class="btn btn-success EN-lang">add to cart</button>
+              <button class="btn btn-success AR-lang">اضافة لسلة التسوق</button>
+            </div>
+          </div>
+          </div>
+        </div>
+        <div class="device-card">
+          <div class="device-title">
+            <img src='../../assets/device1.jpg' />
+            <div class="device-data-container d-flex full-width">
+            <div class="d-flex flex-column position-relative full-width">
+              <div class="mx-20 blueTit EN-lang">Official Store</div>
+              <div class="mx-20 blueTit AR-lang">المتجر الرسمي</div>
+
+              <h3 class="EN-lang">Moxom Charge & Data Cable 3 Meter (USB-type C)</h3>
+              <h3 class="AR-lang">Moxom Charge & Data Cable 3 Meter (USB-type C)</h3>
+
+              <div class="rate d-flex mx-20">
+                <i class="fa fa-star rated"></i>
+                <i class="fa fa-star rated"></i>
+                <i class="fa fa-star rated"></i>
+                <i class="fa fa-star rated"></i>
+                <i class="fa fa-star"></i>
+                <span>&nbsp;(300)</span>
+              </div>
+              <div class="position-absolute d-flex flex-wrap mx-20 shipped">
+                <img src="../../assets/jumiaExpress.PNG" />
+                <span class="EN-lang">Eligible for free shipping</span>
+                <span class="AR-lang">مؤهل للشحن المجاني</span>
+
+              </div>
+            </div>
+            <div class="device-price">
+              <button type="button" id="sponsoreBtn">
+                <span class="EN-lang">Sponsored</span>
+                <span class="AR-lang">منتجات مدعومة</span>
+                <i class="fas fa-info-circle"></i></button>
+  
+              <div class="price EN-lang">EGP 150.00</div>
+              <div class="price AR-lang">جنيه 250.00</div>
+  
+              <div class="discount-container">
+                <p class="beforeDiscount"></p>
+                <div class="discount"></div>
+              </div>
+              <p class="offerFrom EN-lang"><span>2</span> offers from <span>EGP 100.00</span></p>
+            <p class="offerFrom AR-lang"><span>2</span> تبدأ العروض من <span>جنيه 100.00</span></p>
+              <button class="btn btn-success EN-lang">add to cart</button>
+              <button class="btn btn-success AR-lang">اضافة لسلة التسوق</button>
+            </div>
+          </div>
+          </div>
+        </div>
+        <div class="device-card">
+          <div class="device-title">
+            <img src='../../assets/device2.jpg' />
+            <div class="device-data-container d-flex full-width">
+            <div class="d-flex flex-column position-relative full-width">
+              <div class="mx-20 blueTit hide EN-lang">Official Store</div>
+              <div class="mx-20 blueTit hide AR-lang">المتجر الرسمي</div>
+
+              <h3 class="EN-lang">Moxom Charge & Data Cable 3 Meter (USB-type C)</h3>
+              <h3 class="AR-lang">Moxom Charge & Data Cable 3 Meter (USB-type C)</h3>
+
+              <div class="rate d-flex mx-20">
+                <i class="fa fa-star rated"></i>
+                <i class="fa fa-star rated"></i>
+                <i class="fa fa-star rated"></i>
+                <i class="fa fa-star rated"></i>
+                <i class="fa fa-star"></i>
+                <span>&nbsp;(300)</span>
+              </div>
+              <div class="position-absolute d-flex flex-wrap mx-20 shipped">
+                <img src="../../assets/jumiaExpress.PNG" />
+                <span class="EN-lang">Eligible for free shipping</span>
+                <span class="AR-lang">مؤهل للشحن المجاني</span>
+
+              </div>
+            </div>
+            <div class="device-price">
+              <button type="button" class="hide" id="sponsoreBtn">
+                <span class="EN-lang">Sponsored</span>
+                <span class="AR-lang">منتجات مدعومة</span>
+                <i class="fas fa-info-circle"></i></button>
+  
+              <div class="price EN-lang">EGP 150.00</div>
+              <div class="price AR-lang">جنيه 250.00</div>
+  
+              <div class="discount-container">
+                <p class="beforeDiscount"></p>
+                <div class="discount"></div>
+              </div>
+              <p class="offerFrom EN-lang"><span>2</span> offers from <span>EGP 100.00</span></p>
+            <p class="offerFrom AR-lang"><span>2</span> تبدأ العروض من <span>جنيه 100.00</span></p>
+              <button class="btn btn-success EN-lang">add to cart</button>
+              <button class="btn btn-success AR-lang">اضافة لسلة التسوق</button>
+            </div>
+          </div>
+          </div>
+        </div>
+            <!--Pagination-->
+            <nav aria-label="Page navigation example" class="paginationNav d-flex align-items-center justify-content-center my-20">
+              <ul class="pagination d-flex align-items-center justify-content-center mb-0">
+                <li class="page-item">
+                  <a class="page-link" href="../../Home.html" aria-label="Previous">
+                    <span aria-hidden="true">&laquo;</span>
+                    <span class="sr-only">Previous</span>
+                  </a>
+                </li>
+                <li class="page-item"><a class="page-link" href="../../Home.html">1</a></li>
+                <li class="page-item  active"><a class="page-link" href="#">2</a></li>
+                <li class="page-item"><a class="page-link" href="../../pages/listType/p3.html">3</a></li>
+                <li class="page-item">
+                  <a class="page-link" href="#" aria-label="Next">
+                    <span aria-hidden="true">&raquo;</span>
+                    <span class="sr-only">Next</span>
+                  </a>
+                </li>
+              </ul>
+            </nav>
+      </div>
+        <!--Cards view-->
+        <div id="grid-view" class="row">
+            <div class="col-md-3">
+              <div class="card">
+                <img class="img-fluid" alt="100%x280" src="../../assets/device1.jpg">
+                <div class="card-body">
+                  <div class="blueTit mb-2 EN-lang">Official Store</div>
+                  <div class="blueTit mb-2 AR-lang">المتجر الرسمي</div>
+                  <h4 class="card-title mb-2">realme C11(2021)- 6.52-inch 32GB/2GB Dual SIM 4G Mobile Phone - Lake Blue
+                  </h4>
+    
+                  <p class="card-text EN-lang mb-0">EGP 2,020.00</p>
+                  <p class="card-text AR-lang mb-0"> جنيه2,020.00</p>
+                  <div class="d-flex align-items-center">
+                    <p class="card-text beforeDiscount AR-lang mb-0"> جنيه2,500.00</p>
+                    <p class="card-text beforeDiscount EN-lang mb-0">EGP 2,500.00</p>
+                    <div class="discount position-relative">-10%</div>
+                  </div>
+                  <p class="offerFrom mb-0 mt-2 EN-lang"><span>2</span> offers from <span>EGP 99.00</span></p>
+                  <p class="offerFrom mb-0 mt-2 AR-lang"><span>2</span> تبدأ العروض من <span>جنيه 99.00</span></p>
+                  <div class="rate d-flex my-2">
+                    <i class="fa fa-star rated"></i>
+                    <i class="fa fa-star rated"></i>
+                    <i class="fa fa-star rated"></i>
+                    <i class="fa fa-star rated"></i>
+                    <i class="fa fa-star"></i>
+                    <span>&nbsp;(300)</span>
+                  </div>
+                  <div class="d-flex flex-column flex-wrap shipped">
+                    <img src="../../assets/jumiaExpress.PNG" />
+                    <span class="EN-lang">Eligible for free shipping</span>
+                    <span class="AR-lang">مؤهل للشحن المجاني</span>
+                  </div>
+    
+                  <button type="button" class="my-2" id="sponsoreBtn">
+                    <span class="EN-lang">Sponsored</span>
+                    <span class="AR-lang">منتجات مدعومة</span>
+                    <i class="fas fa-info-circle"></i>
+                  </button>
+    
+    
+                </div>
+                <button class="btn btn-success mb-2 EN-lang">add to cart</button>
+                <button class="btn btn-success mb-2 AR-lang">اضافة لسلة التسوق</button>
+    
+              </div>
+    
+            </div>
+            <div class="col-md-3">
+              <div class="card">
+                <img class="img-fluid" alt="100%x280" src="../../assets/device2.jpg">
+                <div class="card-body">
+                  <div class="blueTit mb-2 EN-lang hide">Official Store</div>
+                  <div class="blueTit mb-2 AR-lang hide">المتجر الرسمي</div>
+                  <h4 class="card-title mb-2">realme C11(2021)- 6.52-inch 32GB/2GB Dual SIM 4G Mobile Phone - Lake Blue
+                  </h4>
+    
+                  <p class="card-text EN-lang mb-0">EGP 2,020.00</p>
+                  <p class="card-text AR-lang mb-0"> جنيه2,020.00</p>
+                  <div class="d-flex align-items-center">
+                    <p class="card-text beforeDiscount AR-lang mb-0"> جنيه2,500.00</p>
+                    <p class="card-text beforeDiscount EN-lang mb-0">EGP 2,500.00</p>
+                    <div class="discount position-relative">-10%</div>
+                  </div>
+                  <p class="offerFrom mb-0 mt-2 EN-lang"><span>2</span> offers from <span>EGP 99.00</span></p>
+                  <p class="offerFrom mb-0 mt-2 AR-lang"><span>2</span> تبدأ العروض من <span>جنيه 99.00</span></p>
+                  <div class="rate d-flex my-2">
+                    <i class="fa fa-star rated"></i>
+                    <i class="fa fa-star rated"></i>
+                    <i class="fa fa-star rated"></i>
+                    <i class="fa fa-star rated"></i>
+                    <i class="fa fa-star"></i>
+                    <span>&nbsp;(300)</span>
+                  </div>
+                  <div class="d-flex flex-column flex-wrap shipped hide">
+                    <img src="../../assets/jumiaExpress.PNG" />
+                    <span class="EN-lang">Eligible for free shipping</span>
+                    <span class="AR-lang">مؤهل للشحن المجاني</span>
+                  </div>
+    
+                  <button type="button" class="my-2" id="sponsoreBtn">
+                    <span class="EN-lang">Sponsored</span>
+                    <span class="AR-lang">منتجات مدعومة</span>
+                    <i class="fas fa-info-circle"></i>
+                  </button>
+    
+    
+                </div>
+                <button class="btn btn-success mb-2 EN-lang">add to cart</button>
+                <button class="btn btn-success mb-2 AR-lang">اضافة لسلة التسوق</button>
+    
+              </div>
+    
+            </div>
+            <div class="col-md-3">
+              <div class="card">
+                <img class="img-fluid" alt="100%x280" src="../../assets/device3.jpg">
+                <div class="card-body">
+                  <div class="blueTit mb-2 EN-lang ">Official Store</div>
+                  <div class="blueTit mb-2 AR-lang ">المتجر الرسمي</div>
+                  <h4 class="card-title mb-2">realme C11(2021)- 6.52-inch 32GB/2GB Dual SIM 4G Mobile Phone - Lake Blue
+                  </h4>
+    
+                  <p class="card-text EN-lang mb-0">EGP 2,020.00</p>
+                  <p class="card-text AR-lang mb-0"> جنيه2,020.00</p>
+                  <div class="d-flex align-items-center">
+                    <p class="card-text beforeDiscount AR-lang mb-0"> جنيه2,500.00</p>
+                    <p class="card-text beforeDiscount EN-lang mb-0">EGP 2,500.00</p>
+                    <div class="discount position-relative">-10%</div>
+                  </div>
+                  <p class="offerFrom mb-0 mt-2 EN-lang"><span>2</span> offers from <span>EGP 99.00</span></p>
+                  <p class="offerFrom mb-0 mt-2 AR-lang"><span>2</span> تبدأ العروض من <span>جنيه 99.00</span></p>
+                  <div class="rate d-flex my-2">
+                    <i class="fa fa-star rated"></i>
+                    <i class="fa fa-star rated"></i>
+                    <i class="fa fa-star rated"></i>
+                    <i class="fa fa-star rated"></i>
+                    <i class="fa fa-star"></i>
+                    <span>&nbsp;(300)</span>
+                  </div>
+                  <div class="d-flex flex-column flex-wrap shipped">
+                    <img src="../../assets/jumiaExpress.PNG" />
+                    <span class="EN-lang">Eligible for free shipping</span>
+                    <span class="AR-lang">مؤهل للشحن المجاني</span>
+                  </div>
+    
+                  <button type="button" class="my-2 hide" id="sponsoreBtn">
+                    <span class="EN-lang">Sponsored</span>
+                    <span class="AR-lang">منتجات مدعومة</span>
+                    <i class="fas fa-info-circle"></i>
+                  </button>
+    
+    
+                </div>
+                <button class="btn btn-success mb-2 EN-lang">add to cart</button>
+                <button class="btn btn-success mb-2 AR-lang">اضافة لسلة التسوق</button>
+    
+              </div>
+    
+            </div>
+            <div class="col-md-3">
+              <div class="card">
+                <img class="img-fluid" alt="100%x280"
+                  src="https://eg.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/35/572331/1.jpg?5105">
+                <div class="card-body">
+                  <div class="blueTit mb-2 EN-lang hide">Official Store</div>
+                  <div class="blueTit mb-2 AR-lang hide">المتجر الرسمي</div>
+                  <h4 class="card-title mb-2">realme C11(2021)- 6.52-inch 32GB/2GB Dual SIM 4G Mobile Phone - Lake Blue
+                  </h4>
+    
+                  <p class="card-text EN-lang mb-0">EGP 2,020.00</p>
+                  <p class="card-text AR-lang mb-0"> جنيه2,020.00</p>
+                  <div class="d-flex align-items-center">
+                    <p class="card-text beforeDiscount AR-lang mb-0"> جنيه2,500.00</p>
+                    <p class="card-text beforeDiscount EN-lang mb-0">EGP 2,500.00</p>
+                    <div class="discount position-relative">-10%</div>
+                  </div>
+                  <p class="offerFrom mb-0 mt-2 EN-lang hide"><span>2</span> offers from <span>EGP 99.00</span></p>
+                  <p class="offerFrom mb-0 mt-2 AR-lang hide"><span>2</span> تبدأ العروض من <span>جنيه 99.00</span></p>
+                  <div class="rate d-flex my-2">
+                    <i class="fa fa-star rated"></i>
+                    <i class="fa fa-star rated"></i>
+                    <i class="fa fa-star rated"></i>
+                    <i class="fa fa-star rated"></i>
+                    <i class="fa fa-star"></i>
+                    <span>&nbsp;(300)</span>
+                  </div>
+                  <div class="d-flex flex-column flex-wrap shipped hide">
+                    <img src="../../assets/jumiaExpress.PNG" />
+                    <span class="EN-lang">Eligible for free shipping</span>
+                    <span class="AR-lang">مؤهل للشحن المجاني</span>
+                  </div>
+    
+                  <button type="button" class="my-2" id="sponsoreBtn">
+                    <span class="EN-lang">Sponsored</span>
+                    <span class="AR-lang">منتجات مدعومة</span>
+                    <i class="fas fa-info-circle"></i>
+                  </button>
+    
+                </div>
+    
+                <button class="btn btn-success mb-2 EN-lang">add to cart</button>
+                <button class="btn btn-success mb-2 AR-lang">اضافة لسلة التسوق</button>
+    
+              </div>
+    
+            </div>
+            <div class="col-md-3">
+              <div class="card">
+                <img class="img-fluid" alt="100%x280" src="../../assets/device1.jpg">
+                <div class="card-body">
+                  <div class="blueTit mb-2 EN-lang">Official Store</div>
+                  <div class="blueTit mb-2 AR-lang">المتجر الرسمي</div>
+                  <h4 class="card-title mb-2">realme C11(2021)- 6.52-inch 32GB/2GB Dual SIM 4G Mobile Phone - Lake Blue
+                  </h4>
+    
+                  <p class="card-text EN-lang mb-0">EGP 2,020.00</p>
+                  <p class="card-text AR-lang mb-0"> جنيه2,020.00</p>
+                  <div class="d-flex align-items-center">
+                    <p class="card-text beforeDiscount AR-lang mb-0"> جنيه2,500.00</p>
+                    <p class="card-text beforeDiscount EN-lang mb-0">EGP 2,500.00</p>
+                    <div class="discount position-relative">-10%</div>
+                  </div>
+                  <p class="offerFrom mb-0 mt-2 EN-lang"><span>2</span> offers from <span>EGP 99.00</span></p>
+                  <p class="offerFrom mb-0 mt-2 AR-lang"><span>2</span> تبدأ العروض من <span>جنيه 99.00</span></p>
+                  <div class="rate d-flex my-2">
+                    <i class="fa fa-star rated"></i>
+                    <i class="fa fa-star rated"></i>
+                    <i class="fa fa-star rated"></i>
+                    <i class="fa fa-star rated"></i>
+                    <i class="fa fa-star"></i>
+                    <span>&nbsp;(300)</span>
+                  </div>
+                  <div class="d-flex flex-column flex-wrap shipped">
+                    <img src="../../assets/jumiaExpress.PNG" />
+                    <span class="EN-lang">Eligible for free shipping</span>
+                    <span class="AR-lang">مؤهل للشحن المجاني</span>
+                  </div>
+    
+                  <button type="button" class="my-2" id="sponsoreBtn">
+                    <span class="EN-lang">Sponsored</span>
+                    <span class="AR-lang">منتجات مدعومة</span>
+                    <i class="fas fa-info-circle"></i>
+                  </button>
+    
+    
+                </div>
+                <button class="btn btn-success mb-2 EN-lang">add to cart</button>
+                <button class="btn btn-success mb-2 AR-lang">اضافة لسلة التسوق</button>
+    
+              </div>
+    
+            </div>
+            <div class="col-md-3">
+              <div class="card">
+                <img class="img-fluid" alt="100%x280" src="../../assets/device2.jpg">
+                <div class="card-body">
+                  <div class="blueTit mb-2 EN-lang hide">Official Store</div>
+                  <div class="blueTit mb-2 AR-lang hide">المتجر الرسمي</div>
+                  <h4 class="card-title mb-2">realme C11(2021)- 6.52-inch 32GB/2GB Dual SIM 4G Mobile Phone - Lake Blue
+                  </h4>
+    
+                  <p class="card-text EN-lang mb-0">EGP 2,020.00</p>
+                  <p class="card-text AR-lang mb-0"> جنيه2,020.00</p>
+                  <div class="d-flex align-items-center">
+                    <p class="card-text beforeDiscount AR-lang mb-0"> جنيه2,500.00</p>
+                    <p class="card-text beforeDiscount EN-lang mb-0">EGP 2,500.00</p>
+                    <div class="discount position-relative">-10%</div>
+                  </div>
+                  <p class="offerFrom mb-0 mt-2 EN-lang"><span>2</span> offers from <span>EGP 99.00</span></p>
+                  <p class="offerFrom mb-0 mt-2 AR-lang"><span>2</span> تبدأ العروض من <span>جنيه 99.00</span></p>
+                  <div class="rate d-flex my-2">
+                    <i class="fa fa-star rated"></i>
+                    <i class="fa fa-star rated"></i>
+                    <i class="fa fa-star rated"></i>
+                    <i class="fa fa-star rated"></i>
+                    <i class="fa fa-star"></i>
+                    <span>&nbsp;(300)</span>
+                  </div>
+                  <div class="d-flex flex-column flex-wrap shipped hide">
+                    <img src="../../assets/jumiaExpress.PNG" />
+                    <span class="EN-lang">Eligible for free shipping</span>
+                    <span class="AR-lang">مؤهل للشحن المجاني</span>
+                  </div>
+    
+                  <button type="button" class="my-2" id="sponsoreBtn">
+                    <span class="EN-lang">Sponsored</span>
+                    <span class="AR-lang">منتجات مدعومة</span>
+                    <i class="fas fa-info-circle"></i>
+                  </button>
+    
+    
+                </div>
+                <button class="btn btn-success mb-2 EN-lang">add to cart</button>
+                <button class="btn btn-success mb-2 AR-lang">اضافة لسلة التسوق</button>
+    
+              </div>
+    
+            </div>
+            <div class="col-md-3">
+              <div class="card">
+                <img class="img-fluid" alt="100%x280" src="../../assets/device3.jpg">
+                <div class="card-body">
+                  <div class="blueTit mb-2 EN-lang ">Official Store</div>
+                  <div class="blueTit mb-2 AR-lang ">المتجر الرسمي</div>
+                  <h4 class="card-title mb-2">realme C11(2021)- 6.52-inch 32GB/2GB Dual SIM 4G Mobile Phone - Lake Blue
+                  </h4>
+    
+                  <p class="card-text EN-lang mb-0">EGP 2,020.00</p>
+                  <p class="card-text AR-lang mb-0"> جنيه2,020.00</p>
+                  <div class="d-flex align-items-center">
+                    <p class="card-text beforeDiscount AR-lang mb-0"> جنيه2,500.00</p>
+                    <p class="card-text beforeDiscount EN-lang mb-0">EGP 2,500.00</p>
+                    <div class="discount position-relative">-10%</div>
+                  </div>
+                  <p class="offerFrom mb-0 mt-2 EN-lang"><span>2</span> offers from <span>EGP 99.00</span></p>
+                  <p class="offerFrom mb-0 mt-2 AR-lang"><span>2</span> تبدأ العروض من <span>جنيه 99.00</span></p>
+                  <div class="rate d-flex my-2">
+                    <i class="fa fa-star rated"></i>
+                    <i class="fa fa-star rated"></i>
+                    <i class="fa fa-star rated"></i>
+                    <i class="fa fa-star rated"></i>
+                    <i class="fa fa-star"></i>
+                    <span>&nbsp;(300)</span>
+                  </div>
+                  <div class="d-flex flex-column flex-wrap shipped">
+                    <img src="../../assets/jumiaExpress.PNG" />
+                    <span class="EN-lang">Eligible for free shipping</span>
+                    <span class="AR-lang">مؤهل للشحن المجاني</span>
+                  </div>
+    
+                  <button type="button" class="my-2 hide" id="sponsoreBtn">
+                    <span class="EN-lang">Sponsored</span>
+                    <span class="AR-lang">منتجات مدعومة</span>
+                    <i class="fas fa-info-circle"></i>
+                  </button>
+    
+    
+                </div>
+                <button class="btn btn-success mb-2 EN-lang">add to cart</button>
+                <button class="btn btn-success mb-2 AR-lang">اضافة لسلة التسوق</button>
+    
+              </div>
+    
+            </div>
+            <div class="col-md-3">
+              <div class="card">
+                <img class="img-fluid" alt="100%x280"
+                  src="https://eg.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/35/572331/1.jpg?5105">
+                <div class="card-body">
+                  <div class="blueTit mb-2 EN-lang hide">Official Store</div>
+                  <div class="blueTit mb-2 AR-lang hide">المتجر الرسمي</div>
+                  <h4 class="card-title mb-2">realme C11(2021)- 6.52-inch 32GB/2GB Dual SIM 4G Mobile Phone - Lake Blue
+                  </h4>
+    
+                  <p class="card-text EN-lang mb-0">EGP 2,020.00</p>
+                  <p class="card-text AR-lang mb-0"> جنيه2,020.00</p>
+                  <div class="d-flex align-items-center">
+                    <p class="card-text beforeDiscount AR-lang mb-0"> جنيه2,500.00</p>
+                    <p class="card-text beforeDiscount EN-lang mb-0">EGP 2,500.00</p>
+                    <div class="discount position-relative">-10%</div>
+                  </div>
+                  <p class="offerFrom mb-0 mt-2 EN-lang hide"><span>2</span> offers from <span>EGP 99.00</span></p>
+                  <p class="offerFrom mb-0 mt-2 AR-lang hide"><span>2</span> تبدأ العروض من <span>جنيه 99.00</span></p>
+                  <div class="rate d-flex my-2">
+                    <i class="fa fa-star rated"></i>
+                    <i class="fa fa-star rated"></i>
+                    <i class="fa fa-star rated"></i>
+                    <i class="fa fa-star rated"></i>
+                    <i class="fa fa-star"></i>
+                    <span>&nbsp;(300)</span>
+                  </div>
+                  <div class="d-flex flex-column flex-wrap shipped hide">
+                    <img src="../../assets/jumiaExpress.PNG" />
+                    <span class="EN-lang">Eligible for free shipping</span>
+                    <span class="AR-lang">مؤهل للشحن المجاني</span>
+                  </div>
+    
+                  <button type="button" class="my-2" id="sponsoreBtn">
+                    <span class="EN-lang">Sponsored</span>
+                    <span class="AR-lang">منتجات مدعومة</span>
+                    <i class="fas fa-info-circle"></i>
+                  </button>
+    
+                </div>
+    
+                <button class="btn btn-success mb-2 EN-lang">add to cart</button>
+                <button class="btn btn-success mb-2 AR-lang">اضافة لسلة التسوق</button>
+    
+              </div>
+    
+            </div>
+            <div class="col-md-3">
+              <div class="card">
+                <img class="img-fluid" alt="100%x280" src="../../assets/device1.jpg">
+                <div class="card-body">
+                  <div class="blueTit mb-2 EN-lang">Official Store</div>
+                  <div class="blueTit mb-2 AR-lang">المتجر الرسمي</div>
+                  <h4 class="card-title mb-2">realme C11(2021)- 6.52-inch 32GB/2GB Dual SIM 4G Mobile Phone - Lake Blue
+                  </h4>
+    
+                  <p class="card-text EN-lang mb-0">EGP 2,020.00</p>
+                  <p class="card-text AR-lang mb-0"> جنيه2,020.00</p>
+                  <div class="d-flex align-items-center">
+                    <p class="card-text beforeDiscount AR-lang mb-0"> جنيه2,500.00</p>
+                    <p class="card-text beforeDiscount EN-lang mb-0">EGP 2,500.00</p>
+                    <div class="discount position-relative">-10%</div>
+                  </div>
+                  <p class="offerFrom mb-0 mt-2 EN-lang"><span>2</span> offers from <span>EGP 99.00</span></p>
+                  <p class="offerFrom mb-0 mt-2 AR-lang"><span>2</span> تبدأ العروض من <span>جنيه 99.00</span></p>
+                  <div class="rate d-flex my-2">
+                    <i class="fa fa-star rated"></i>
+                    <i class="fa fa-star rated"></i>
+                    <i class="fa fa-star rated"></i>
+                    <i class="fa fa-star rated"></i>
+                    <i class="fa fa-star"></i>
+                    <span>&nbsp;(300)</span>
+                  </div>
+                  <div class="d-flex flex-column flex-wrap shipped">
+                    <img src="../../assets/jumiaExpress.PNG" />
+                    <span class="EN-lang">Eligible for free shipping</span>
+                    <span class="AR-lang">مؤهل للشحن المجاني</span>
+                  </div>
+    
+                  <button type="button" class="my-2" id="sponsoreBtn">
+                    <span class="EN-lang">Sponsored</span>
+                    <span class="AR-lang">منتجات مدعومة</span>
+                    <i class="fas fa-info-circle"></i>
+                  </button>
+    
+    
+                </div>
+                <button class="btn btn-success mb-2 EN-lang">add to cart</button>
+                <button class="btn btn-success mb-2 AR-lang">اضافة لسلة التسوق</button>
+    
+              </div>
+    
+            </div>
+            <div class="col-md-3">
+              <div class="card">
+                <img class="img-fluid" alt="100%x280" src="../../assets/device2.jpg">
+                <div class="card-body">
+                  <div class="blueTit mb-2 EN-lang hide">Official Store</div>
+                  <div class="blueTit mb-2 AR-lang hide">المتجر الرسمي</div>
+                  <h4 class="card-title mb-2">realme C11(2021)- 6.52-inch 32GB/2GB Dual SIM 4G Mobile Phone - Lake Blue
+                  </h4>
+    
+                  <p class="card-text EN-lang mb-0">EGP 2,020.00</p>
+                  <p class="card-text AR-lang mb-0"> جنيه2,020.00</p>
+                  <div class="d-flex align-items-center">
+                    <p class="card-text beforeDiscount AR-lang mb-0"> جنيه2,500.00</p>
+                    <p class="card-text beforeDiscount EN-lang mb-0">EGP 2,500.00</p>
+                    <div class="discount position-relative">-10%</div>
+                  </div>
+                  <p class="offerFrom mb-0 mt-2 EN-lang"><span>2</span> offers from <span>EGP 99.00</span></p>
+                  <p class="offerFrom mb-0 mt-2 AR-lang"><span>2</span> تبدأ العروض من <span>جنيه 99.00</span></p>
+                  <div class="rate d-flex my-2">
+                    <i class="fa fa-star rated"></i>
+                    <i class="fa fa-star rated"></i>
+                    <i class="fa fa-star rated"></i>
+                    <i class="fa fa-star rated"></i>
+                    <i class="fa fa-star"></i>
+                    <span>&nbsp;(300)</span>
+                  </div>
+                  <div class="d-flex flex-column flex-wrap shipped hide">
+                    <img src="../../assets/jumiaExpress.PNG" />
+                    <span class="EN-lang">Eligible for free shipping</span>
+                    <span class="AR-lang">مؤهل للشحن المجاني</span>
+                  </div>
+    
+                  <button type="button" class="my-2" id="sponsoreBtn">
+                    <span class="EN-lang">Sponsored</span>
+                    <span class="AR-lang">منتجات مدعومة</span>
+                    <i class="fas fa-info-circle"></i>
+                  </button>
+    
+    
+                </div>
+                <button class="btn btn-success mb-2 EN-lang">add to cart</button>
+                <button class="btn btn-success mb-2 AR-lang">اضافة لسلة التسوق</button>
+    
+              </div>
+    
+            </div>
+            <div class="col-md-3">
+              <div class="card">
+                <img class="img-fluid" alt="100%x280" src="../../assets/device3.jpg">
+                <div class="card-body">
+                  <div class="blueTit mb-2 EN-lang ">Official Store</div>
+                  <div class="blueTit mb-2 AR-lang ">المتجر الرسمي</div>
+                  <h4 class="card-title mb-2">realme C11(2021)- 6.52-inch 32GB/2GB Dual SIM 4G Mobile Phone - Lake Blue
+                  </h4>
+    
+                  <p class="card-text EN-lang mb-0">EGP 2,020.00</p>
+                  <p class="card-text AR-lang mb-0"> جنيه2,020.00</p>
+                  <div class="d-flex align-items-center">
+                    <p class="card-text beforeDiscount AR-lang mb-0"> جنيه2,500.00</p>
+                    <p class="card-text beforeDiscount EN-lang mb-0">EGP 2,500.00</p>
+                    <div class="discount position-relative">-10%</div>
+                  </div>
+                  <p class="offerFrom mb-0 mt-2 EN-lang"><span>2</span> offers from <span>EGP 99.00</span></p>
+                  <p class="offerFrom mb-0 mt-2 AR-lang"><span>2</span> تبدأ العروض من <span>جنيه 99.00</span></p>
+                  <div class="rate d-flex my-2">
+                    <i class="fa fa-star rated"></i>
+                    <i class="fa fa-star rated"></i>
+                    <i class="fa fa-star rated"></i>
+                    <i class="fa fa-star rated"></i>
+                    <i class="fa fa-star"></i>
+                    <span>&nbsp;(300)</span>
+                  </div>
+                  <div class="d-flex flex-column flex-wrap shipped">
+                    <img src="../../assets/jumiaExpress.PNG" />
+                    <span class="EN-lang">Eligible for free shipping</span>
+                    <span class="AR-lang">مؤهل للشحن المجاني</span>
+                  </div>
+    
+                  <button type="button" class="my-2 hide" id="sponsoreBtn">
+                    <span class="EN-lang">Sponsored</span>
+                    <span class="AR-lang">منتجات مدعومة</span>
+                    <i class="fas fa-info-circle"></i>
+                  </button>
+    
+    
+                </div>
+                <button class="btn btn-success mb-2 EN-lang">add to cart</button>
+                <button class="btn btn-success mb-2 AR-lang">اضافة لسلة التسوق</button>
+    
+              </div>
+    
+            </div>
+            <div class="col-md-3">
+              <div class="card">
+                <img class="img-fluid" alt="100%x280"
+                  src="https://eg.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/35/572331/1.jpg?5105">
+                <div class="card-body">
+                  <div class="blueTit mb-2 EN-lang hide">Official Store</div>
+                  <div class="blueTit mb-2 AR-lang hide">المتجر الرسمي</div>
+                  <h4 class="card-title mb-2">realme C11(2021)- 6.52-inch 32GB/2GB Dual SIM 4G Mobile Phone - Lake Blue
+                  </h4>
+    
+                  <p class="card-text EN-lang mb-0">EGP 2,020.00</p>
+                  <p class="card-text AR-lang mb-0"> جنيه2,020.00</p>
+                  <div class="d-flex align-items-center">
+                    <p class="card-text beforeDiscount AR-lang mb-0"> جنيه2,500.00</p>
+                    <p class="card-text beforeDiscount EN-lang mb-0">EGP 2,500.00</p>
+                    <div class="discount position-relative">-10%</div>
+                  </div>
+                  <p class="offerFrom mb-0 mt-2 EN-lang hide"><span>2</span> offers from <span>EGP 99.00</span></p>
+                  <p class="offerFrom mb-0 mt-2 AR-lang hide"><span>2</span> تبدأ العروض من <span>جنيه 99.00</span></p>
+                  <div class="rate d-flex my-2">
+                    <i class="fa fa-star rated"></i>
+                    <i class="fa fa-star rated"></i>
+                    <i class="fa fa-star rated"></i>
+                    <i class="fa fa-star rated"></i>
+                    <i class="fa fa-star"></i>
+                    <span>&nbsp;(300)</span>
+                  </div>
+                  <div class="d-flex flex-column flex-wrap shipped hide">
+                    <img src="../../assets/jumiaExpress.PNG" />
+                    <span class="EN-lang">Eligible for free shipping</span>
+                    <span class="AR-lang">مؤهل للشحن المجاني</span>
+                  </div>
+    
+                  <button type="button" class="my-2" id="sponsoreBtn">
+                    <span class="EN-lang">Sponsored</span>
+                    <span class="AR-lang">منتجات مدعومة</span>
+                    <i class="fas fa-info-circle"></i>
+                  </button>
+    
+                </div>
+    
+                <button class="btn btn-success mb-2 EN-lang">add to cart</button>
+                <button class="btn btn-success mb-2 AR-lang">اضافة لسلة التسوق</button>
+    
+              </div>
+    
+            </div>
+    
+                <!--Pagination-->
+                <nav aria-label="Page navigation example" class="paginationNav d-flex align-items-center justify-content-center my-20">
+                  <ul class="pagination d-flex align-items-center justify-content-center mb-0">
+                    <li class="page-item">
+                      <a class="page-link" href="../../Home.html" aria-label="Previous">
+                        <span aria-hidden="true">&laquo;</span>
+                        <span class="sr-only">Previous</span>
+                      </a>
+                    </li>
+                    <li class="page-item"><a class="page-link" href="../../Home.html">1</a></li>
+                    <li class="page-item active"><a class="page-link" href="#">2</a></li>
+                    <li class="page-item"><a class="page-link" href="p3.html">3</a></li>
+                    <li class="page-item">
+                      <a class="page-link" href="#" aria-label="Next">
+                        <span aria-hidden="true">&raquo;</span>
+                        <span class="sr-only">Next</span>
+                      </a>
+                    </li>
+                  </ul>
+                </nav>
+          </div>
+    </div>
+
+  </div>
+
+  </div>
+  <!--footer-->
+  <div id="footer" class="EN-lang">
+    <div class="firstSection">
+      <div class="logo-black"><a href="../../Home.html"><img src="../../assets/logoTransparentbg.png" /></a></div>
+      <div>
+        <h4>NEW TO JUMIA?</h4>
+        <p>Subscribe to our newsletter to get updates on our latest offers!</p>
+        <form method="post" class="feedback-form">
+          <div class="input-box">
+            <input class="form-control" type="email" placeholder="Enter Email Address">
+            <span>
+              <i class="fas fa-envelope"></i>
+            </span>
+          </div>
+          <button name="gender" value="male">Male</button>
+          <button name="gender" value="female">Female</button>
+        </form>
+      </div>
+      <div class="downloadSection">
+        <div class="jumiaApp">
+          <i class="fas fa-shopping-cart"></i>
+          <div>
+            <h4>DOWNLOAD JUMIA FREE APP</h4>
+            <p>Get access to exclusive offers!</p>
+          </div>
+        </div>
+        <div class="appSource">
+          <a href="#"><img src="../../assets/appStore.jpg" /></a>
+          <a href="#"><img src="../../assets/googlePlay.jpg" /></a>
+        </div>
+      </div>
+    </div>
+    <div class="secondSection">
+      <div>
+        <div>
+          <h4>LET US HELP YOU</h4>
+          <div class="links-container">
+            <a href="#">Help Center</a>
+            <a href="#">Contact us</a>
+            <a href="#">How to buy on Jumia?</a>
+            <a href="#">How to pay on Jumia?</a>
+            <a href="#">Delivery timelines</a>
+            <a href="#">Return Policy</a>
+            <a href="#">Corporate Services</a>
+            <a href="#">Report a Product</a>
+          </div>
+          <div class="socialMedia-container">
+            <h4>JOIN US ON</h4>
+            <div>
+              <a href="https://www.facebook.com"><i class="fab fa-facebook-f"></i> </a>
+              <a href="https://www.twitter.com"><i class="fab fa-twitter"></i></a>
+              <a href="https://www.instagram.com"><i class="fab fa-instagram"></i></a>
+              <a href="https://www.youtube.com"><i class="fab fa-youtube"></i></a>
+            </div>
+          </div>
+        </div>
+        <div>
+          <h4>ABOUT JUMIA EGYPT</h4>
+          <div class="links-container">
+            <a href="#">About us</a>
+            <a href="#">Jumia Careers</a>
+            <a href="#">Terms and Conditions</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Jumia Express</a>
+            <a href="#">Jumia Mall</a>
+            <a href="#">Jumia Logistics Services</a>
+            <a href="#">Jumia Black Friday</a>
+          </div>
+          <div class="payment-container">
+            <h4>PAYMENT METHODS</h4>
+            <div>
+              <a href="#"><i class="fas fa-handshake"></i></a>
+              <a href="#"><i class="fab fa-cc-mastercard"></i></a>
+              <a href="#"><i class="fab fa-cc-visa"></i></a>
+              <a href="#"><i class="fas fa-money-bill-wave"></i></a>
+            </div>
+          </div>
+        </div>
+        <div>
+          <h4>MAKE MONEY WITH JUMIA</h4>
+          <div class="links-container">
+            <a href="#">Sell on Jumia</a>
+            <a href="#">Become a Logistics Service Partner</a>
+            <a href="#">Become a Sales Consultant (J-Force )</a>
+          </div>
+        </div>
+        <div>
+          <h4>JUMIA INTERNATIONAL</h4>
+          <div class="links-container">
+            <div>
+              <a href="#">Algeria</a>
+              <a href="#">Ivory Coast</a>
+              <a href="#">Ghana</a>
+              <a href="#">Kenya</a>
+              <a href="#">Morocco</a>
+            </div>
+            <div>
+              <a href="#">Nigeria</a>
+              <a href="#">Senegal</a>
+              <a href="#">Tunisia</a>
+              <a href="#">Uganda</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="language" class="black-theme">
+        <span class="disable EN" id="EN"><img src="../../assets/EN.png" />&nbsp;English</span> &nbsp; | &nbsp;
+        <span class="AR" id="AR"><img src="../../assets/AR.png" />&nbsp; Arabic</span>
+      </div>
+    </div>
+  </div>
+  <!--AR-->
+  <div id="footer" class="AR-lang">
+    <div class="firstSection">
+      <div class="logo-black"><a href="../../Home.html"><img src="../../assets/logoTransparentbg.png" /></a></div>
+      <div>
+        <h4>هل انت جديد علي جوميا؟</h4>
+        <p>اشترك في نشرتنا الاخباريه للحصول علي احدث العروض</p>
+        <form method="post" class="feedback-form">
+          <div class="input-box">
+            <input class="form-control" type="email" placeholder="أدخل بريدك الإلكتروني" />
+            <span>
+              <i class="fas fa-envelope"></i>
+            </span>
+          </div>
+          <button name="gender" value="male">ذكر</button>
+          <button name="gender" value="female">انثى</button>
+        </form>
+      </div>
+      <div class="downloadSection">
+        <div class="jumiaApp">
+          <i class="fas fa-shopping-cart"></i>
+          <div>
+            <h4>تنزيل تطبيق جوميا المجاني</h4>
+            <p>احصل علي العديد من العروض الحصرية</p>
+          </div>
+        </div>
+        <div class="appSource">
+          <a href="#"><img src="../../assets/appStore.jpg" /></a>
+          <a href="#"><img src="../../assets/googlePlay.jpg" /></a>
+        </div>
+      </div>
+    </div>
+    <div class="secondSection">
+      <div>
+        <div>
+          <h4>خدمة العملاء</h4>
+          <div class="links-container">
+            <a href="#">مركز المساعدة</a>
+            <a href="#">اتصل بنا</a>
+            <a href="#">كيفية عمل طلب شراء</a>
+            <a href="#">طرق الدفع</a>
+            <a href="#">سياسة الشحن</a>
+            <a href="#">سياسة الإرجاع و الاسترداد النقدي</a>
+            <a href="#">خدمات الشركات</a>
+            <a href="#">خدمات الشركات
+              الإبلاغ عن منتج</a>
+          </div>
+          <div class="socialMedia-container">
+            <h4>:تابعونا على</h4>
+            <div>
+              <a href="https://www.facebook.com"><i class="fab fa-facebook-f"></i> </a>
+              <a href="https://www.twitter.com"><i class="fab fa-twitter"></i></a>
+              <a href="https://www.instagram.com"><i class="fab fa-instagram"></i></a>
+              <a href="https://www.youtube.com"><i class="fab fa-youtube"></i></a>
+            </div>
+          </div>
+        </div>
+        <div>
+          <h4>من نحن</h4>
+          <div class="links-container">
+            <a href="#">عن جوميا</a>
+            <a href="#">انضم إلى جوميا</a>
+            <a href="#">الشروط والأحكام</a>
+            <a href="#">سياسة الخصوصية</a>
+            <a href="#">Jumia Express</a>
+            <a href="#">المتاجر الرسمية</a>
+            <a href="#">خدمات جوميا للشحن</a>
+            <a href="#">جوميا بلاك فرايداي</a>
+          </div>
+          <div class="payment-container">
+            <h4>طرق الدفع</h4>
+            <div>
+              <a href="#"><i class="fas fa-handshake"></i></a>
+              <a href="#"><i class="fab fa-cc-mastercard"></i></a>
+              <a href="#"><i class="fab fa-cc-visa"></i></a>
+              <a href="#"><i class="fas fa-money-bill-wave"></i></a>
+            </div>
+          </div>
+        </div>
+        <div>
+          <h4>زود مبيعاتك</h4>
+          <div class="links-container">
+            <a href="#">بيع على جوميا</a>
+            <a href="#">كن شريكًا للخدمات اللوجستية</a>
+            <a href="#">ابدا بزنس مع جوميا (J-Force )</a>
+          </div>
+        </div>
+        <div>
+          <h4>جوميا دولياً</h4>
+          <div class="links-container">
+            <div>
+              <a href="#">الجزائر</a>
+              <a href="#">ساحل العاج</a>
+              <a href="#">غانا</a>
+              <a href="#">كينيا</a>
+              <a href="#">المغرب</a>
+            </div>
+            <div>
+              <a href="#">نيجيريا</a>
+              <a href="#">السنغال</a>
+              <a href="#">تونس</a>
+              <a href="#">أوغندا</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="language" class="black-theme">
+        <span class="disable EN" id="EN"><img src="../../assets/EN.png" />&nbsp;English</span> &nbsp; | &nbsp;
+        <span class="AR" id="AR"><img src="../../assets/AR.png" />&nbsp; Arabic</span>
+      </div>
+
+    </div>
+  </div>
+
+
+
+  <script src="../../libraries/js/jquery-3.2.1.slim.min.js"></script>
+  <script src="../../libraries/js/popper.min.js"></script>
+  <script src="../../libraries/js/bootstrap.js"></script>
+
+
+  <!-- <script src="libraries/js/jquery-3.5.1.slim.min.js"></script>
+  <script src="libraries/js/Bootstrap-v4.5.2.js"></script> -->
+  <script src="../../libraries/js/bootstrap-slider.min.js"></script>
+
+  <script src="../../scripts.js"></script>
+  <script src="cardType.js"></script>
+
+</body>
+
+</html>

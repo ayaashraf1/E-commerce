@@ -1,0 +1,42 @@
+/*--theme-general style--*/
+.AR-lang{
+    text-align: right;
+    direction: rtl; 
+}
+.AR-lang i{
+  float: right;
+}
+.AR-lang i.fas.fa-eye-slash,.AR-lang i.fas.fa-eye{
+  float: left;
+}
+  
+/*----switch lang----*/
+.AR-lang ,#footer.AR-lang{
+    display:none;
+}
+/*--best-seller section--*/
+.AR-lang section .bestSeller-container .card .discount{
+    right:unset;
+    left:0;
+}
+
+/*--second section--*/
+.AR-lang #filter-section .modal-header .close{
+    margin:-1rem;
+}
+.AR-lang #filter-section #brand-section #brands,.AR-lang #filter-section #color-section,
+.AR-lang #filter-section #megaPixcel-section #megaPixcel-list,
+.AR-lang #filter-section #screenSize-section #screenSize-list,
+.AR-lang #filter-section #internalMemory-section #internalMemory-list{
+    margin-left: 18px;
+    padding-right: 18px;
+    padding-left: unset;
+    margin-right: unset;
+}
+.AR-lang #grid-view .card:hover .AR-lang.btn-success{
+    opacity: 1;
+}
+
+.AR-lang #filter-section #rangeValues{
+    flex-direction: row-reverse;
+}

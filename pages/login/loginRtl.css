@@ -1,0 +1,21 @@
+.AR-lang #LoginBox .container#login2{
+    border-right:1px solid#e2e2e2;
+    padding-left: 250px;
+    padding-right: 104px;
+}
+.AR-lang #LoginBox .container#login1{
+    padding-right: 250px;
+    padding-left: 104px;
+}
+@media(max-width:1025px) {
+    .AR-lang #LoginBox .container#login2{
+        border-right:none;
+        padding-left: 0px;
+        padding-right: 0px;
+        border-bottom: 1px solid#e2e2e2;
+    }
+    .AR-lang #LoginBox .container#login1{
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+  }

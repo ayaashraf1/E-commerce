@@ -1,0 +1,13 @@
+/*----media Query RTL---*/    
+@media(max-width:989px) {
+   .AR-lang #footer .secondSection > div:first-child .socialMedia-container div a:first-child i,
+   .AR-lang #footer .secondSection > div:first-child .payment-container div a:first-child i{
+     padding-left: 3px;
+    } 
+}
+@media(max-width:894px){
+    /*--filter--*/
+    .AR-lang #express-shipping-section .form-check-label{
+       margin-left: 0px;
+     }
+}

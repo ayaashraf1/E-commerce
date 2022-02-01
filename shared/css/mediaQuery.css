@@ -1,0 +1,244 @@
+/*----media Query---*/
+@media(max-width:1179px){
+    #menu-section .form-inline input{
+            padding: 6px 8px;
+     }
+     #menu-section .form-inline input {
+         width: 52%;
+     }
+}
+@media(max-width:1145px){
+    #menu-section .form-inline {
+        width: 30%;
+    }    
+    #menu-section .form-inline button {
+        padding: 6px 2px;
+    }
+    #menu-section .navbar-nav .nav-link {
+        padding-right: 0.4rem;
+        padding-left: 0.4rem;
+    } 
+
+    /*--best seller section--*/
+    .bestSeller-container .carousel-inner {
+        height: 340px;
+    }
+    section .bestSeller-container .col-md-2{
+        max-width: 32.6666%;
+    }
+}
+@media(max-width:1080px){
+      /*--best seller section--*/
+      .bestSeller-container .carousel-inner {
+        height: 317px;
+    }
+}
+@media(max-width:1099px){
+    /*--grid-view--*/
+   #grid-view .col-md-3 {
+       -ms-flex: 0 0 33%;
+       flex: 0 0 33%;
+       max-width: 33%;
+   }
+}   
+@media(max-width:1089px){
+    #filter-section{
+        width: 34%;
+    }
+    #devices-section{
+        width: 65%;
+    }
+    #devices-section #row-view .device-card .device-title{
+        flex-direction: column;
+    }
+    #devices-section #row-view .device-card img{
+        width:100%;
+    }
+    #devices-section #row-view .device-card .device-title div.device-data-container{
+        margin-top: 15px;
+    }
+    #devices-section #row-view .device-card .device-title div div.shipped,
+    #devices-section #row-view .device-card .device-price .btn{
+        position: relative!important;
+    }
+    .EN-lang #devices-section #row-view .device-card .device-price .offerFrom{
+    text-align: right;
+    }
+    .EN-lang #devices-section #row-view .device-card .device-price .offerFrom{
+        text-align: left;
+        }
+}
+     
+@media(max-width:989px) {
+    .col-md-10 {
+        max-width: 100%;
+    }
+    #menu-section .form-inline{
+        width: 100%;
+        justify-content: space-between;
+    }
+    #menu-section .form-inline input {
+        margin: 0px!important;
+    }
+    .carousel-inner img {
+        height: 200px;
+        object-fit: fill;
+    }
+    #menu-section .form-inline button {
+        padding: 6px 0;
+        width: 19%;
+        margin-left: 3px;
+        margin-right: 3px;
+    }
+    .carousel-inner {
+        height: 215px;
+        border-radius: 15px;
+    }
+    /*--footer--*/
+    #footer .firstSection {
+        justify-content: space-between;
+    }
+    #footer .firstSection .downloadSection {
+        width: 100%;
+        padding-top: 41px;
+        flex-direction: row;
+        justify-content: flex-start;
+    }
+    #footer .firstSection .logo-black{
+        margin-bottom: 12px;
+    }
+    #footer .secondSection > div:first-child .socialMedia-container div a:first-child i,
+    #footer .secondSection > div:first-child .payment-container div a:first-child i{
+       padding-right: 3px;
+    }
+    #footer .secondSection > div:first-child .socialMedia-container i,
+    #footer .secondSection > div:first-child .payment-container i{
+       padding: 0px 3px;
+     }
+      /*--best seller section--*/
+    .pink-title h3{
+        display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    }
+    .bestSeller-container .carousel-inner {
+        height: 308px;
+    }
+
+    /*--grid-view--*/
+    #grid-view .col-md-3 {
+       -ms-flex: 0 0 50%;
+       flex: 0 0 50%;
+       max-width: 50%;
+   }
+}
+@media(max-width:894px){
+    /*--filter--*/
+    #filter-section input[type="number"]{
+        width: 100%;
+        text-align: center;
+     }
+     #filter-section #rangeValues{
+        flex-direction: column;
+     }
+     .EN-lang #express-shipping-section .form-check-label{
+       margin-right: 0px;
+     }
+}
+@media(max-width:769px){
+    #devices-section #filter-title-section{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    #devices-section #filter-title-section #filter:hover, #filter:hover .dropdown .dropbtn{
+        text-align: left;
+    }
+
+    /*--grid-view--*/
+    #grid-view .col-md-3 {
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
+@media(max-width:725px){
+    /*--best seller section--*/
+    section .bestSeller-container .col-md-2{
+        max-width: 50%;
+    }
+      .bestSeller-container .carousel-inner {
+        height: 306px;
+    }
+}
+
+@media(max-width:712px){
+    #filter-section{
+        width: 49%;
+    }
+    #devices-section{
+        width: 50%;
+    }
+    #filter-title-section .dropbtn, #filter-title-section .dropbtn:active,
+    #filter-title-section .dropbtn:visited{
+         padding: 0;
+         text-align: left;
+     }
+     #devices-section #view-option-section #icon-box i:first-child{
+         margin:0px;
+     }
+     #devices-section #row-view .device-card .device-title div.device-data-container{
+         flex-direction: column;
+     }
+     #devices-section #row-view .device-card .device-price{
+         width:100%;
+         align-items: flex-start;
+     }
+     .device-data-container div div,.device-data-container div h3{
+         margin:0px!important;
+
+     }
+     .paginationNav {
+         display: none!important;
+     }
+}
+@media(max-width:617px){
+    /*--filter--*/
+    #filter-section {
+        display: none;
+    }
+    #devices-section {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    #devices-section #view-option-section #icon-box i:first-child {
+        margin: 0px;
+    }
+}
+
+@media (max-width:596px){
+     /*--best seller section--*/
+     section .bestSeller-container .col-md-2{
+        max-width: 100%;
+    }
+      .bestSeller-container .carousel-inner {
+        height: 306px;
+    }
+    .pink-title {
+        padding: 12px 6px;
+    }
+    /*--footer--*/
+    #footer .firstSection .feedback-form .input-box input{
+        width:auto;
+    } 
+}
+@media ( max-width:513px) {
+    #menu-section .form-inline input ,#menu-section .form-inline button{
+        width: 100%;
+    }
+    #menu-section .form-inline button{
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-top: 4px!important;
+    }
+}

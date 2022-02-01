@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce Websit</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="../../libraries/css/bootstrap.css">
+    <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="../../style.css">
+    <link rel="stylesheet" href="../../styleRtl.css">
+    <link rel="stylesheet" href="../../shared/css/components.css">
+    <link rel="stylesheet" href="../../shared/css/componentsRtl.css">
+    <link rel="stylesheet" href="../../shared/css/mediaQuery.css">
+    <link rel="stylesheet" href="../../shared/css/mediaQueryRtl.css">
+    <link rel="stylesheet" href="sign-up.css">
+    <link rel="stylesheet" href="sign-upRtl.css">
+
+</head>
+<body class="EN-lang bg-white">
+    <!--Language Menu-->
+    <div id="language" class="padding-theme col-md-12">
+      <span class="disable EN" id="EN"><img src="../../assets/EN.png" />&nbsp;English</span> &nbsp; | &nbsp;
+      <span id="AR" class="AR"><img src="../../assets/AR.png" />&nbsp; Arabic</span> 
+    </div>
+    <!--Menu-->
+   <!--EN-->
+<nav class="navbar navbar-expand-lg navbar-light padding-theme row EN-lang " id="menu-section">
+  <a class="navbar-brand col-md-2" href="../../Home.html"><img src="../../assets/logo.jpg" /></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse col-md-10" id="navbarSupportedContent">
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2 ml-sm-2  " type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0  " type="submit">Search</button>
+    </form>
+    <ul class="navbar-nav">
+      <li class="nav-item dropdown active">
+        <a class="nav-link dropdown-toggle  " href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <i class="fas fa-user-alt"></i>&nbsp;
+          Account
+        </a>
+        <div class="dropdown-menu  " aria-labelledby="navbarDropdown">
+          <div class="dropdown-btn-box">
+            <a class="btn-success" href="../login/login.html">Sign In</a>
+          </div>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#"><i class="fas fa-user-alt"></i> &nbsp; &nbsp;My Account</a>
+          <a class="dropdown-item" href="#"><i class="fas fa-home"></i>&nbsp; &nbsp; Orders</a>
+          <a class="dropdown-item" href="#"><i class="far fa-heart"></i>&nbsp; &nbsp; Saved Items</a>
+        </div>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle  " href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <i class="far fa-question-circle"></i>&nbsp;
+          Help
+        </a>
+        <div class="dropdown-menu  " aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Help Center</a>
+          <a class="dropdown-item" href="#">Order Cancellation</a>
+          <a class="dropdown-item" href="#">Returns & Refunds</a>
+          <div class="dropdown-divider"></div>
+          <div class="dropdown-btn-box">
+            <a class="btn-success" href="#"><i class="far fa-comment-alt"></i> &nbsp; &nbsp;Live Help</a>
+          </div>
+        </div>
+      </li>
+       <li class="nav-item">
+        <a class="nav-link  " href="#"><i class="fas fa-shopping-cart"></i>&nbsp;Chart</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+ <!--AR-->
+<nav class="navbar navbar-expand-lg navbar-light padding-theme row AR-lang" id="menu-section">
+  <a class="navbar-brand col-md-2" href="../../Home.html"><img src="../../assets/logo.jpg" /></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse col-md-10" id="navbarSupportedContent">
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2 ml-sm-2  " type="search" placeholder="ابحث" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0  " type="submit">ابحث</button>
+
+    </form>
+    <ul class="navbar-nav">
+      <li class="nav-item dropdown active">
+        <a class="nav-link dropdown-toggle  " href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          &nbsp; تسجيل الدخول
+         <i class="fas fa-user-alt"></i>
+        </a>
+        <div class="dropdown-menu  " aria-labelledby="navbarDropdown">
+          <div class="dropdown-btn-box">
+            <a class="btn-success" href="../login/login.html">تسجيل الدخول</a>
+          </div>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#"><i class="fas fa-user-alt"></i>&nbsp; &nbsp;الحساب</a>
+          <a class="dropdown-item" href="#"><i class="fas fa-home"></i>&nbsp; &nbsp; الطلبات</a>
+          <a class="dropdown-item" href="#"><i class="far fa-heart"></i>&nbsp; &nbsp; المنتجات المحفوظه</a>
+        </div>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle  " href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          &nbsp; المساعده
+         <i class="far fa-question-circle"></i>
+        </a>
+        <div class="dropdown-menu  " aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">مركز المساعده</a>
+          <a class="dropdown-item" href="#">الغاء طلبك</a>
+          <a class="dropdown-item" href="#">الارجاع والاسترداد</a>
+          <div class="dropdown-divider"></div>
+          <div class="dropdown-btn-box">
+            <a class="btn-success" href="#"><i class="far fa-comment-alt"></i> &nbsp; &nbsp;تحدث معنا</a>
+          </div>
+        </div>
+      </li>
+       <li class="nav-item">
+        <a class="nav-link  " href="#">&nbsp;سله التسوق<i class="fas fa-shopping-cart"></i></a>
+      </li>
+    </ul>
+  </div>
+</nav>
+    <!--Sign up-->
+
+   <div id="signUp">
+    <div class="container">
+        <h3 class="EN-lang">Create Account</h3>
+        <h3 class="AR-lang">انشاء حساب</h3>
+
+        <div class="box flex-row-center-start">
+            <div class="input-box">
+                <input type="text" class="inputText" value="" required />
+                <label class="inputLabel EN-lang">First Name</label>
+                <label class="inputLabel AR-lang">الاسم الاول</label>
+            </div>
+            <div class="input-box">
+                <input type="text" class="inputText" value="" required />
+                <label class="inputLabel EN-lang">Last Name</label>
+                <label class="inputLabel AR-lang">اسم العائله</label>
+            </div>
+        </div>
+
+        <div class="box flex-row-center-start">
+          <div class="input-box">
+            <input type="email" class="inputText" value="" required />
+            <label class="inputLabel EN-lang">E-mail</label>
+            <label class="inputLabel AR-lang">البريد الالكترونى</label>
+          </div>
+          <div class="input-box">
+            <input type="password" class="inputText" value="" required />
+            <label class="inputLabel EN-lang">Password <i class="fas fa-eye-slash passwordIcon"></i></label>
+            <label class="inputLabel AR-lang">كلمه المرور <i class="fas fa-eye-slash passwordIcon"></i></label>
+          </div>
+        </div>
+        <div class="tel-box">
+            <div class="prefix flex-column-center-start">
+                <label class="EN-lang">Prefix</label>
+                <label class="AR-lang">الكود</label>
+
+                <div>+20</div>
+            </div>
+            <div class="input-box">
+              <input type="tel" id="phone" class="inputText" name="phone" pattern="[0-9]*">
+              <label class="inputLabel EN-lang">Phone Number(optinal)</label>
+              <label class="inputLabel AR-lang">رقم الهاتف(اختيارى)</label>
+            </div>
+          </div>
+
+        <div id="checkBox-conatiner">
+         <div class="form-check">
+             <input type="checkbox" class="form-check-input" id="acceptTerms">
+             <label class="form-check-label EN-lang" for="acceptTerms">I accept the <span style="color:#f68b1e;">Terms & Conditions</span></label>
+             <label class="form-check-label AR-lang" for="acceptTerms">اوافق على <span style="color:#f68b1e;">الشروط والاحكام</span> واشعار الخصوصيه وملفات تعريف الارتباط الخاص بجوميا.</label>
+
+           </div>
+           <div class="form-check">
+            <input type="checkbox" class="form-check-input" id="receiveOffers">
+            <label class="form-check-label EN-lang" for="receiveOffers">I want to receive Jumia Newsletters with the best deals and offers</label>
+            <label class="form-check-label AR-lang" for="receiveOffers">أريد تلقي نشرة جوميا الإخبارية وأفضل العروض والصفقات</label>
+
+          </div>
+        </div>
+        <button type="button" class="btn btn-success full-width EN-lang"><i class="fas fa-envelope"></i>Create Account</button>
+        <button type="button" class="btn btn-success full-width AR-lang"><i class="fas fa-envelope"></i>انشاء حساب</button>
+
+        <div id="separator" class="box flex-row-center-start">
+            <hr/>
+            <span class="EN-lang">OR</span>
+            <span class="AR-lang">او</span>
+            <hr/>
+        </div>
+
+        <a href="https://www.facebook.com" class="btn btn-primary full-width EN-lang"><i class="fab fa-facebook-square"></i>Register with facebook</a>
+        <a href="https://www.facebook.com" class="btn btn-primary full-width AR-lang"><i class="fab fa-facebook-square"></i>التسجيل عن طريق الفيسبوك</a>
+
+        <div id="login-conatiner" class="flex-column-center-center">
+            <div class="EN-lang">Already have an account?</div>
+            <div class="AR-lang">هل لديك حساب بالفعل؟</div>
+
+            <a href="../login/login.html"class="a-theme full-width EN-lang">Login</a>
+            <a href="../login/login.html"class="a-theme full-width AR-lang">تسجيل الدخول</a>
+
+
+        </div>
+
+    </div>
+   </div>
+    
+   <!--footer-->
+   <div id="footer" class="EN-lang">
+    <div class="firstSection">
+    <div class="logo-black"><a href="../../Home.html"><img src="../../assets/logoTransparentbg.png" /></a></div>
+    <div>
+      <h4>NEW TO JUMIA?</h4>
+      <p>Subscribe to our newsletter to get updates on our latest offers!</p>
+      <form method="post" class="feedback-form">
+         <div class="input-box">
+           <input class="form-control" type="email" placeholder="Enter Email Address" >
+          <span>
+            <i class="fas fa-envelope"></i>
+          </span>
+         </div>
+        <button name="gender" value="male">Male</button>
+        <button name="gender" value="female">Female</button>
+      </form>
+    </div>
+    <div class="downloadSection">
+      <div class="jumiaApp">
+        <i class="fas fa-shopping-cart"></i>
+        <div>
+          <h4>DOWNLOAD JUMIA FREE APP</h4>
+          <p>Get access to exclusive offers!</p>
+        </div>
+      </div>
+      <div class="appSource">
+        <a href="#"><img src="../../assets/appStore.jpg" /></a>
+        <a href="#"><img src="../../assets/googlePlay.jpg" /></a>
+      </div>
+    </div>
+  </div>
+  <div class="secondSection">
+    <div>
+      <div>
+        <h4>LET US HELP YOU</h4>
+        <div class="links-container">
+          <a href="#">Help Center</a>
+          <a href="#">Contact us</a>
+          <a href="#">How to buy on Jumia?</a>
+          <a href="#">How to pay on Jumia?</a>
+          <a href="#">Delivery timelines</a>
+          <a href="#">Return Policy</a>
+          <a href="#">Corporate Services</a>
+          <a href="#">Report a Product</a>
+        </div>
+        <div class="socialMedia-container">
+          <h4>JOIN US ON</h4>
+          <div>
+            <a href="https://www.facebook.com"><i class="fab fa-facebook-f"></i> </a>
+            <a href="https://www.twitter.com"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.instagram.com"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.youtube.com"><i class="fab fa-youtube"></i></a>
+          </div>
+        </div>
+      </div>
+      <div>
+        <h4>ABOUT JUMIA EGYPT</h4>
+        <div class="links-container">
+          <a href="#">About us</a>
+          <a href="#">Jumia Careers</a>
+          <a href="#">Terms and Conditions</a>
+          <a href="#">Privacy Policy</a>
+          <a href="#">Jumia Express</a>
+          <a href="#">Jumia Mall</a>
+          <a href="#">Jumia Logistics Services</a>
+          <a href="#">Jumia Black Friday</a>
+        </div>
+        <div class="payment-container">
+          <h4>PAYMENT METHODS</h4>
+          <div>
+           <a href="#"><i class="fas fa-handshake"></i></a>
+           <a href="#"><i class="fab fa-cc-mastercard"></i></a>
+           <a href="#"><i class="fab fa-cc-visa"></i></a>
+           <a href="#"><i class="fas fa-money-bill-wave"></i></a>
+          </div>
+        </div>
+      </div>
+      <div>
+        <h4>MAKE MONEY WITH JUMIA</h4>
+        <div class="links-container">
+          <a href="#">Sell on Jumia</a>
+          <a href="#">Become a Logistics Service Partner</a>
+          <a href="#">Become a Sales Consultant (J-Force )</a>
+        </div>
+      </div>
+      <div>
+        <h4>JUMIA INTERNATIONAL</h4>
+        <div class="links-container">
+          <div>
+            <a href="#">Algeria</a>
+            <a href="#">Ivory Coast</a>
+            <a href="#">Ghana</a>
+            <a href="#">Kenya</a>
+            <a href="#">Morocco</a>
+          </div>
+          <div>
+            <a href="#">Nigeria</a>
+            <a href="#">Senegal</a>
+            <a href="#">Tunisia</a>
+            <a href="#">Uganda</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+      <div id="language" class="black-theme">
+        <span class="disable EN" id="EN"><img src="../../assets/EN.png" />&nbsp;English</span> &nbsp; | &nbsp;
+        <span class="AR" id="AR"><img src="../../assets/AR.png" />&nbsp; Arabic</span> 
+      </div>
+    </div>
+  </div>
+  <!--AR-->
+  <div id="footer" class="AR-lang">
+    <div class="firstSection">
+    <div class="logo-black"><a href="../../Home.html"><img src="../../assets/logoTransparentbg.png" /></a></div>
+    <div>
+      <h4>هل انت جديد علي جوميا؟</h4>
+      <p>اشترك في نشرتنا الاخباريه للحصول علي احدث العروض</p>
+      <form method="post" class="feedback-form">
+        <div class="input-box">
+          <input class="form-control" type="email" placeholder="أدخل بريدك الإلكتروني" />
+         <span>
+           <i class="fas fa-envelope"></i>
+         </span>
+        </div>
+        <button name="gender" value="male">ذكر</button>
+        <button name="gender" value="female">انثى</button>
+      </form>
+    </div>
+    <div class="downloadSection">
+      <div class="jumiaApp">
+        <i class="fas fa-shopping-cart"></i>
+        <div>
+          <h4>تنزيل تطبيق جوميا المجاني</h4>
+          <p>احصل علي العديد من العروض الحصرية</p>
+        </div>
+      </div>
+      <div class="appSource">
+        <a href="#"><img src="../../assets/appStore.jpg" /></a>
+        <a href="#"><img src="../../assets/googlePlay.jpg" /></a>
+      </div>
+    </div>
+    </div>
+    <div class="secondSection">
+      <div>
+      <div>
+        <h4>خدمة العملاء</h4>
+        <div class="links-container">
+          <a href="#">مركز المساعدة</a>
+          <a href="#">اتصل بنا</a>
+          <a href="#">كيفية عمل طلب شراء</a>
+          <a href="#">طرق الدفع</a>
+          <a href="#">سياسة الشحن</a>
+          <a href="#">سياسة الإرجاع و الاسترداد النقدي</a>
+          <a href="#">خدمات الشركات</a>
+          <a href="#">خدمات الشركات
+            الإبلاغ عن منتج</a>
+        </div>
+        <div class="socialMedia-container">
+          <h4>:تابعونا على</h4>
+          <div>
+            <a href="https://www.facebook.com"><i class="fab fa-facebook-f"></i> </a>
+            <a href="https://www.twitter.com"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.instagram.com"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.youtube.com"><i class="fab fa-youtube"></i></a>
+          </div>
+        </div>
+      </div>
+      <div>
+        <h4>من نحن</h4>
+        <div class="links-container">
+          <a href="#">عن جوميا</a>
+          <a href="#">انضم إلى جوميا</a>
+          <a href="#">الشروط والأحكام</a>
+          <a href="#">سياسة الخصوصية</a>
+          <a href="#">Jumia Express</a>
+          <a href="#">المتاجر الرسمية</a>
+          <a href="#">خدمات جوميا للشحن</a>
+          <a href="#">جوميا بلاك فرايداي</a>
+        </div>
+        <div class="payment-container">
+          <h4>طرق الدفع</h4>
+          <div>
+           <a href="#"><i class="fas fa-handshake"></i></a>
+           <a href="#"><i class="fab fa-cc-mastercard"></i></a>
+           <a href="#"><i class="fab fa-cc-visa"></i></a>
+           <a href="#"><i class="fas fa-money-bill-wave"></i></a>
+          </div>
+        </div>
+      </div>
+      <div>
+        <h4>زود مبيعاتك</h4>
+        <div class="links-container">
+          <a href="#">بيع على جوميا</a>
+          <a href="#">كن شريكًا للخدمات اللوجستية</a>
+          <a href="#">ابدا بزنس مع جوميا (J-Force )</a>
+        </div>
+      </div>
+      <div>
+        <h4>جوميا دولياً</h4>
+        <div class="links-container">
+          <div>
+            <a href="#">الجزائر</a>
+            <a href="#">ساحل العاج</a>
+            <a href="#">غانا</a>
+            <a href="#">كينيا</a>
+            <a href="#">المغرب</a>
+          </div>
+          <div>
+            <a href="#">نيجيريا</a>
+            <a href="#">السنغال</a>
+            <a href="#">تونس</a>
+            <a href="#">أوغندا</a>
+          </div>
+        </div>
+      </div>
+      </div>
+      <div id="language" class="black-theme">
+        <span class="disable EN" id="EN"><img src="../../assets/EN.png" />&nbsp;English</span> &nbsp; | &nbsp;
+        <span class="AR" id="AR"><img src="../../assets/AR.png" />&nbsp; Arabic</span> 
+      </div>
+
+    </div>
+  </div>
+
+    <script src="../../libraries/js/jquery-3.2.1.slim.min.js"></script>
+    <script src="../../libraries/js/popper.min.js"></script>
+    <script src="../../libraries/js/bootstrap.js"></script>
+    <script src="../../scripts.js"></script>
+
+</body>
+</html>

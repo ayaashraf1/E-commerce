@@ -1,0 +1,87 @@
+#signUp .container{
+    padding-right: 120px;
+    padding-left: 120px;
+}
+#signUp .input-box{
+    padding-right: 20px;
+    padding-left: 0px;
+}
+#signUp h3{
+    padding-top: 35px;
+    padding-bottom: 43px;
+    font-weight: bold;
+}
+#signUp .tel-box{
+    display:flex;
+    flex-direction:row;
+}
+#signUp .tel-box .input-box{
+    width: 44%;
+}
+#signUp .tel-box .prefix{
+    margin-right: 17px;
+    margin-left: 0px;
+}
+#signUp .tel-box .prefix label{
+    font-size: .75rem;
+    margin-bottom: 0rem;
+    padding-right: 13px;
+}
+
+#signUp .form-check {
+    margin-bottom: 27px;
+    align-items: flex-start;
+}
+
+#signUp button,#signUp a{
+    padding: 0.775rem 0.75rem;
+    font-size: .875rem;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+#signUp #separator{
+    margin: 18px 0px;
+}
+#signUp .form-check-label{
+   color:black;
+}
+#signUp #separator hr{
+    height: 2px;
+    background: #ededed;
+    border: #ededed;
+    width: 50%;
+    margin-left: 10px;
+    margin-right: 0px;
+}
+#signUp #separator hr:first-child{
+    margin-left: 0;
+    margin-right: 10px;
+}
+#signUp #login-conatiner{
+    font-size: .875rem;
+    text-align: center;
+    margin: 53px 0px;
+}
+#signUp #login-conatiner a{
+    text-align: center;
+    position: relative;
+    width: auto;
+}
+#signUp #login-conatiner a:hover{
+    background-color: rgba(246,139,30,.15);
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+@media(max-width:783px){
+    #signUp .box {
+        flex-direction:column ;
+    }
+    #signUp .tel-box .input-box {
+        width: 100%;
+    }
+    #signUp #separator{
+        flex-direction: row;
+    }
+
+}
